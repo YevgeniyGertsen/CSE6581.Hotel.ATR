@@ -1,0 +1,29 @@
+﻿<ul>
+    <li><a asp-controller="Home" asp-action="Index">HOME</a></li>
+    <li>
+        <a asp-controller="Room" asp-action="Index">ROOMS</a>
+        <ul class="submenu">
+            <li><a asp-controller="Room" asp-action="RoomList">ROOM LIST</a></li>
+            <li><a asp-controller="Room" asp-action="RoomDetails">ROOM DETAILS</a></li>
+        </ul>
+    </li>
+    <li><a href="location.html">LOCATION</a></li>
+    <li><a href="event.html">EVENT</a></li>
+    <li><a href="team.html">TEAM</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+
+    <li>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <a asp-controller="Home" asp-action="Logout">
+                @User.Identity.Name | LOGOUT
+            </a>
+        }
+        else
+        {
+            <a asp-controller="Home" asp-action="Login">
+               LOGIN
+            </a>
+        }
+    </li>
+</ul>

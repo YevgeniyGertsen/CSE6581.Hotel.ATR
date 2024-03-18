@@ -1,0 +1,14 @@
+2024-02-19 10:06:36.117 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-19 10:06:36.268 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-19 10:06:36.268 +06:00 [INF] Hosting environment: Development
+2024-02-19 10:06:36.268 +06:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-02-19 10:06:36.286 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-02-19 10:06:36.317 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-19 10:06:36.350 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-19 10:06:36.352 +06:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-02-19 10:06:36.352 +06:00 [WRN] LogWarning
+2024-02-19 10:06:36.369 +06:00 [INF] Executing ViewResult, running view Index.
+2024-02-19 10:06:36.518 +06:00 [INF] Executed ViewResult - view Index executed in 147.4382ms.
+2024-02-19 10:06:36.522 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 169.2685ms
+2024-02-19 10:06:36.524 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-19 10:06:36.560 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 275.3633ms

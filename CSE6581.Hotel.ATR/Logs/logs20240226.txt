@@ -1,0 +1,252 @@
+2024-02-26 08:37:20.266 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 08:37:20.732 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-26 08:37:20.743 +06:00 [INF] Hosting environment: Development
+2024-02-26 08:37:20.743 +06:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-02-26 08:37:20.789 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-02-26 08:37:20.836 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:37:20.902 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-26 08:37:53.715 +06:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-02-26 08:37:53.717 +06:00 [WRN] LogWarning
+2024-02-26 08:37:53.746 +06:00 [INF] Executing ViewResult, running view Index.
+2024-02-26 08:37:53.932 +06:00 [INF] Executed ViewResult - view Index executed in 187.6831ms.
+2024-02-26 08:37:53.934 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 33030.6338ms
+2024-02-26 08:37:53.935 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:37:53.948 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 33163.6425ms
+2024-02-26 08:37:54.002 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css - -
+2024-02-26 08:37:54.002 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/font-awesome.min.css - -
+2024-02-26 08:37:54.002 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/shortcodes.css - -
+2024-02-26 08:37:54.010 +06:00 [INF] The file /css/shortcode/shortcodes.css was not modified
+2024-02-26 08:37:54.010 +06:00 [INF] The file /css/font-awesome.min.css was not modified
+2024-02-26 08:37:54.010 +06:00 [INF] The file /css/bootstrap.min.css was not modified
+2024-02-26 08:37:54.012 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/shortcodes.css - - - 304 - text/css 9.9651ms
+2024-02-26 08:37:54.012 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/font-awesome.min.css - - - 304 - text/css 10.6038ms
+2024-02-26 08:37:54.012 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css - - - 304 - text/css 10.8221ms
+2024-02-26 08:37:54.109 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/style.css - -
+2024-02-26 08:37:54.110 +06:00 [INF] The file /style.css was not modified
+2024-02-26 08:37:54.110 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/style.css - - - 304 - text/css 1.1221ms
+2024-02-26 08:37:54.122 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - -
+2024-02-26 08:37:54.122 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/responsive.css - -
+2024-02-26 08:37:54.122 +06:00 [INF] The file /js/vendor/modernizr-2.8.3.min.js was not modified
+2024-02-26 08:37:54.122 +06:00 [INF] The file /css/responsive.css was not modified
+2024-02-26 08:37:54.122 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - - - 304 - application/javascript 0.8425ms
+2024-02-26 08:37:54.123 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/responsive.css - - - 304 - text/css 0.9910ms
+2024-02-26 08:37:54.136 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/default.css - -
+2024-02-26 08:37:54.136 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/header.css - -
+2024-02-26 08:37:54.136 +06:00 [INF] The file /css/shortcode/header.css was not modified
+2024-02-26 08:37:54.136 +06:00 [INF] The file /css/shortcode/default.css was not modified
+2024-02-26 08:37:54.137 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/header.css - - - 304 - text/css 0.8664ms
+2024-02-26 08:37:54.137 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/default.css - - - 304 - text/css 0.9773ms
+2024-02-26 08:37:54.146 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/slider.css - -
+2024-02-26 08:37:54.146 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/footer.css - -
+2024-02-26 08:37:54.146 +06:00 [INF] The file /css/shortcode/slider.css was not modified
+2024-02-26 08:37:54.146 +06:00 [INF] The file /css/shortcode/footer.css was not modified
+2024-02-26 08:37:54.146 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/slider.css - - - 304 - text/css 0.9585ms
+2024-02-26 08:37:54.147 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/animate.css - -
+2024-02-26 08:37:54.147 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/footer.css - - - 304 - text/css 0.7866ms
+2024-02-26 08:37:54.148 +06:00 [INF] The file /css/animate.css was not modified
+2024-02-26 08:37:54.149 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/animate.css - - - 304 - text/css 1.8910ms
+2024-02-26 08:37:54.158 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/owl.carousel.css - -
+2024-02-26 08:37:54.158 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/magnific-popup.css - -
+2024-02-26 08:37:54.159 +06:00 [INF] The file /css/owl.carousel.css was not modified
+2024-02-26 08:37:54.159 +06:00 [INF] The file /css/magnific-popup.css was not modified
+2024-02-26 08:37:54.159 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/magnific-popup.css - - - 304 - text/css 1.6205ms
+2024-02-26 08:37:54.159 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/owl.carousel.css - - - 304 - text/css 1.6861ms
+2024-02-26 08:37:54.160 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.css - -
+2024-02-26 08:37:54.161 +06:00 [INF] The file /css/material-design-iconic-font.css was not modified
+2024-02-26 08:37:54.162 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.css - - - 304 - text/css 2.0368ms
+2024-02-26 08:37:54.185 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.min.css - -
+2024-02-26 08:37:54.186 +06:00 [INF] The file /css/material-design-iconic-font.min.css was not modified
+2024-02-26 08:37:54.186 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.min.css - - - 304 - text/css 1.4158ms
+2024-02-26 08:37:54.186 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/slick.css - -
+2024-02-26 08:37:54.187 +06:00 [INF] The file /css/slick.css was not modified
+2024-02-26 08:37:54.189 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/slick.css - - - 304 - text/css 2.2170ms
+2024-02-26 08:37:54.198 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/meanmenu.min.css - -
+2024-02-26 08:37:54.198 +06:00 [INF] The file /css/meanmenu.min.css was not modified
+2024-02-26 08:37:54.199 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/meanmenu.min.css - - - 304 - text/css 1.2292ms
+2024-02-26 08:37:54.221 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - -
+2024-02-26 08:37:54.222 +06:00 [INF] The file /js/vendor/jquery-1.12.4.min.js was not modified
+2024-02-26 08:37:54.222 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - - - 304 - application/javascript 0.8688ms
+2024-02-26 08:37:54.229 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - -
+2024-02-26 08:37:54.230 +06:00 [INF] The file /js/bootstrap.min.js was not modified
+2024-02-26 08:37:54.230 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - - - 304 - application/javascript 0.8815ms
+2024-02-26 08:37:54.363 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - -
+2024-02-26 08:37:54.363 +06:00 [INF] The file /js/owl.carousel.min.js was not modified
+2024-02-26 08:37:54.363 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - -
+2024-02-26 08:37:54.364 +06:00 [INF] The file /js/ajax-mail.js was not modified
+2024-02-26 08:37:54.364 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - - - 304 - application/javascript 0.9679ms
+2024-02-26 08:37:54.364 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - - - 304 - application/javascript 0.6424ms
+2024-02-26 08:37:54.406 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.ajaxchimp.min.js - -
+2024-02-26 08:37:54.407 +06:00 [INF] The file /js/jquery.ajaxchimp.min.js was not modified
+2024-02-26 08:37:54.408 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.ajaxchimp.min.js - - - 304 - application/javascript 2.0979ms
+2024-02-26 08:37:54.411 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.meanmenu.js - -
+2024-02-26 08:37:54.412 +06:00 [INF] The file /js/jquery.meanmenu.js was not modified
+2024-02-26 08:37:54.412 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.meanmenu.js - - - 304 - application/javascript 1.0673ms
+2024-02-26 08:37:54.426 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.counterup.min.js - -
+2024-02-26 08:37:54.427 +06:00 [INF] The file /js/jquery.counterup.min.js was not modified
+2024-02-26 08:37:54.427 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.counterup.min.js - - - 304 - application/javascript 0.6760ms
+2024-02-26 08:37:54.443 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/waypoints.min.js - -
+2024-02-26 08:37:54.443 +06:00 [INF] The file /js/waypoints.min.js was not modified
+2024-02-26 08:37:54.444 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/waypoints.min.js - - - 304 - application/javascript 0.7256ms
+2024-02-26 08:37:54.453 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/isotope.pkgd.min.js - -
+2024-02-26 08:37:54.453 +06:00 [INF] The file /js/isotope.pkgd.min.js was not modified
+2024-02-26 08:37:54.454 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/isotope.pkgd.min.js - - - 304 - application/javascript 0.9919ms
+2024-02-26 08:37:54.460 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/imagesloaded.pkgd.min.js - -
+2024-02-26 08:37:54.460 +06:00 [INF] The file /js/imagesloaded.pkgd.min.js was not modified
+2024-02-26 08:37:54.461 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/imagesloaded.pkgd.min.js - - - 304 - application/javascript 0.9120ms
+2024-02-26 08:37:54.474 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.magnific-popup.js - -
+2024-02-26 08:37:54.475 +06:00 [INF] The file /js/jquery.magnific-popup.js was not modified
+2024-02-26 08:37:54.475 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.magnific-popup.js - - - 304 - application/javascript 0.6451ms
+2024-02-26 08:37:54.481 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/plugins.js - -
+2024-02-26 08:37:54.481 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/main.js - -
+2024-02-26 08:37:54.482 +06:00 [INF] The file /js/plugins.js was not modified
+2024-02-26 08:37:54.482 +06:00 [INF] The file /js/main.js was not modified
+2024-02-26 08:37:54.482 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/main.js - - - 304 - application/javascript 0.6106ms
+2024-02-26 08:37:54.483 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/plugins.js - - - 304 - application/javascript 0.5831ms
+2024-02-26 08:37:58.098 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-02-26 08:37:58.149 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 51.4532ms
+2024-02-26 08:46:42.573 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 08:46:42.801 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-26 08:46:42.802 +06:00 [INF] Hosting environment: Development
+2024-02-26 08:46:42.802 +06:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-02-26 08:46:42.826 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-02-26 08:46:42.862 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:46:42.892 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-26 08:46:42.902 +06:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-02-26 08:46:42.903 +06:00 [WRN] LogWarning
+2024-02-26 08:46:42.923 +06:00 [INF] Executing ViewResult, running view Index.
+2024-02-26 08:46:43.069 +06:00 [INF] Executed ViewResult - view Index executed in 147.8702ms.
+2024-02-26 08:46:43.071 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 177.7909ms
+2024-02-26 08:46:43.072 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:46:43.080 +06:00 [INF] Session started; Key:6fc206ae-03f1-9922-a1cc-58592eccd6c3, Id:758dbfca-d4a7-70f6-a4a4-4b82beda979a
+2024-02-26 08:46:43.102 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 276.9327ms
+2024-02-26 08:46:47.844 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-02-26 08:46:47.856 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 12.1715ms
+2024-02-26 08:51:18.557 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 08:51:18.767 +06:00 [FTL] Application startup exception
+System.InvalidOperationException: Expiration cannot be set for the cookie defined by SessionOptions
+   at Microsoft.AspNetCore.Builder.SessionOptions.SessionCookieBuilder.set_Expiration(Nullable`1 value)
+   at CSE6581.Hotel.ATR.Startup.<>c.<ConfigureServices>b__4_0(SessionOptions options) in C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\Startup.cs:line 39
+   at Microsoft.Extensions.Options.ConfigureNamedOptions`1.Configure(String name, TOptions options)
+   at Microsoft.Extensions.Options.OptionsFactory`1.Create(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.<>c__DisplayClass5_0.<Get>b__0()
+   at System.Lazy`1.ViaFactory(LazyThreadSafetyMode mode)
+   at System.Lazy`1.ExecutionAndPublication(LazyHelper executionAndPublication, Boolean useDefaultConstructor)
+   at System.Lazy`1.CreateValue()
+   at System.Lazy`1.get_Value()
+   at Microsoft.Extensions.Options.OptionsCache`1.GetOrAdd(String name, Func`1 createOptions)
+   at Microsoft.Extensions.Options.OptionsManager`1.Get(String name)
+   at Microsoft.Extensions.Options.OptionsManager`1.get_Value()
+   at Microsoft.AspNetCore.Session.SessionMiddleware..ctor(RequestDelegate next, ILoggerFactory loggerFactory, IDataProtectionProvider dataProtectionProvider, ISessionStore sessionStore, IOptions`1 options)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-02-26 08:51:43.249 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 08:51:43.421 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-26 08:51:43.421 +06:00 [INF] Hosting environment: Development
+2024-02-26 08:51:43.421 +06:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-02-26 08:51:43.445 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-02-26 08:51:43.483 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:51:43.520 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-26 08:51:43.533 +06:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-02-26 08:51:43.534 +06:00 [WRN] LogWarning
+2024-02-26 08:51:43.552 +06:00 [INF] Executing ViewResult, running view Index.
+2024-02-26 08:51:43.709 +06:00 [INF] Executed ViewResult - view Index executed in 156.2941ms.
+2024-02-26 08:51:43.711 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 189.7209ms
+2024-02-26 08:51:43.714 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:51:43.725 +06:00 [INF] Session started; Key:96c81054-5edb-9b6e-2650-d1456c617840, Id:f4536b49-1242-4cc0-c48a-8b85137386f4
+2024-02-26 08:51:43.775 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 329.6561ms
+2024-02-26 08:51:44.384 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/favicon.ico - -
+2024-02-26 08:51:44.409 +06:00 [INF] Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\favicon.ico'
+2024-02-26 08:51:44.409 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/favicon.ico - - - 200 1150 image/x-icon 25.6166ms
+2024-02-26 08:51:55.350 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-02-26 08:51:55.353 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 3.6898ms
+2024-02-26 08:56:08.513 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 08:56:08.686 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-26 08:56:08.686 +06:00 [INF] Hosting environment: Development
+2024-02-26 08:56:08.686 +06:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-02-26 08:56:08.708 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-02-26 08:56:08.747 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:56:08.790 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-26 08:56:08.802 +06:00 [INF] Accessing expired session, Key:96c81054-5edb-9b6e-2650-d1456c617840
+2024-02-26 08:56:08.803 +06:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-02-26 08:56:08.804 +06:00 [WRN] LogWarning
+2024-02-26 08:56:08.820 +06:00 [INF] Executing ViewResult, running view Index.
+2024-02-26 08:56:08.975 +06:00 [INF] Executed ViewResult - view Index executed in 148.9162ms.
+2024-02-26 08:56:08.977 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 186.3425ms
+2024-02-26 08:56:08.978 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 08:56:09.001 +06:00 [INF] Session started; Key:96c81054-5edb-9b6e-2650-d1456c617840, Id:59aa4efa-7e92-8337-007c-c014a3b4bb93
+2024-02-26 08:56:09.054 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 349.6272ms
+2024-02-26 08:56:26.909 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/home/privace - -
+2024-02-26 08:56:26.916 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/home/privace - - - 404 - - 6.6172ms
+2024-02-26 08:56:36.434 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/home/Privacy - -
+2024-02-26 08:56:36.449 +06:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2024-02-26 08:56:36.460 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.HandleAsync(RequestDelegate next, HttpContext context, AuthorizationPolicy policy, PolicyAuthorizationResult authorizeResult)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-02-26 08:56:36.529 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/home/Privacy - - - 500 - text/html;+charset=utf-8 94.4164ms
+2024-02-26 08:56:36.779 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/favicon.ico - -
+2024-02-26 08:56:36.787 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/favicon.ico - - - 404 - - 7.6688ms
+2024-02-26 09:00:05.399 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 09:00:05.671 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-26 09:00:05.671 +06:00 [INF] Hosting environment: Development
+2024-02-26 09:00:05.671 +06:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-02-26 09:00:05.704 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-02-26 09:00:05.765 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 09:00:05.818 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-26 09:00:05.835 +06:00 [INF] Accessing expired session, Key:96c81054-5edb-9b6e-2650-d1456c617840
+2024-02-26 09:00:05.836 +06:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-02-26 09:00:05.838 +06:00 [WRN] LogWarning
+2024-02-26 09:00:05.871 +06:00 [INF] Executing ViewResult, running view Index.
+2024-02-26 09:00:06.097 +06:00 [INF] Executed ViewResult - view Index executed in 224.7664ms.
+2024-02-26 09:00:06.099 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 280.1085ms
+2024-02-26 09:00:06.101 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 09:00:06.154 +06:00 [INF] Session started; Key:96c81054-5edb-9b6e-2650-d1456c617840, Id:5fb4d85f-e290-e8b0-64b4-b7cee0447234
+2024-02-26 09:00:06.180 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 482.8763ms
+2024-02-26 09:11:41.614 +06:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-02-26 09:11:41.780 +06:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-02-26 09:11:41.780 +06:00 [INF] Hosting environment: Development
+2024-02-26 09:11:41.780 +06:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-02-26 09:11:41.800 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-02-26 09:11:41.835 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 09:11:41.867 +06:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-26 09:11:41.881 +06:00 [INF] Accessing expired session, Key:96c81054-5edb-9b6e-2650-d1456c617840
+2024-02-26 09:11:41.882 +06:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-02-26 09:11:41.883 +06:00 [WRN] LogWarning
+2024-02-26 09:11:41.901 +06:00 [INF] Executing ViewResult, running view Index.
+2024-02-26 09:11:42.051 +06:00 [INF] Executed ViewResult - view Index executed in 151.1897ms.
+2024-02-26 09:11:42.052 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 184.8466ms
+2024-02-26 09:11:42.054 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-02-26 09:11:42.065 +06:00 [INF] Session started; Key:96c81054-5edb-9b6e-2650-d1456c617840, Id:7a82eae2-5cf2-52a5-3110-39578fff1e6f
+2024-02-26 09:11:42.116 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 317.6024ms
+2024-02-26 09:12:09.754 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/Login - -
+2024-02-26 09:12:09.759 +06:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Login (CSE6581.Hotel.ATR)'
+2024-02-26 09:12:09.764 +06:00 [INF] Route matched with {action = "Login", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-02-26 09:12:09.765 +06:00 [INF] Executing ViewResult, running view Login.
+2024-02-26 09:12:09.825 +06:00 [INF] Executed ViewResult - view Login executed in 60.456ms.
+2024-02-26 09:12:09.825 +06:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Login (CSE6581.Hotel.ATR) in 61.1741ms
+2024-02-26 09:12:09.825 +06:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Login (CSE6581.Hotel.ATR)'
+2024-02-26 09:12:09.826 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/Login - - - 200 - text/html;+charset=utf-8 71.8450ms
+2024-02-26 09:12:09.999 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/img/logo/footer-logo.png - -
+2024-02-26 09:12:10.036 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/img/logo/footer-logo.png - - - 404 - - 36.7149ms
+2024-02-26 09:12:09.999 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/img/footer/1.jpg - -
+2024-02-26 09:12:10.037 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/img/footer/1.jpg - - - 404 - - 37.4371ms
+2024-02-26 09:12:10.154 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/img/footer/3.jpg - -
+2024-02-26 09:12:10.159 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/img/footer/2.jpg - -
+2024-02-26 09:12:10.167 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/img/footer/4.jpg - -
+2024-02-26 09:12:10.168 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/img/footer/6.jpg - -
+2024-02-26 09:12:10.169 +06:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Home/img/footer/5.jpg - -
+2024-02-26 09:12:10.173 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/img/footer/3.jpg - - - 404 - - 19.5975ms
+2024-02-26 09:12:10.176 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/img/footer/2.jpg - - - 404 - - 17.0408ms
+2024-02-26 09:12:10.177 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/img/footer/4.jpg - - - 404 - - 10.3127ms
+2024-02-26 09:12:10.182 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/img/footer/6.jpg - - - 404 - - 13.7351ms
+2024-02-26 09:12:10.186 +06:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Home/img/footer/5.jpg - - - 404 - - 16.2592ms

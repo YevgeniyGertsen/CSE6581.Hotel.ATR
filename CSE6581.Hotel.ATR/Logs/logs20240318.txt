@@ -1,0 +1,697 @@
+2024-03-18 07:43:32.720 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 07:43:33.034 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 07:43:33.034 +05:00 [INF] Hosting environment: Development
+2024-03-18 07:43:33.034 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 07:43:33.069 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 07:43:33.135 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 07:43:33.197 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 07:43:33.231 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 07:43:33.232 +05:00 [WRN] LogWarning
+2024-03-18 07:43:33.246 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 07:43:33.436 +05:00 [INF] Executed ViewResult - view Index executed in 193.8194ms.
+2024-03-18 07:43:33.437 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 238.7213ms
+2024-03-18 07:43:33.437 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 07:43:33.445 +05:00 [INF] Session started; Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5, Id:306d5ae2-324f-7407-c98a-5968428f7d5c
+2024-03-18 07:43:33.483 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 417.7406ms
+2024-03-18 07:43:33.586 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - -
+2024-03-18 07:43:33.599 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - -
+2024-03-18 07:43:33.602 +05:00 [INF] The file /js/ajax-mail.js was not modified
+2024-03-18 07:43:33.603 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - - - 304 - application/javascript 4.7650ms
+2024-03-18 07:43:33.604 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - -
+2024-03-18 07:43:33.645 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/main.js - -
+2024-03-18 07:43:33.646 +05:00 [INF] The file /js/main.js was not modified
+2024-03-18 07:43:33.647 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/main.js - - - 304 - application/javascript 1.1312ms
+2024-03-18 07:43:33.674 +05:00 [INF] Sending file. Request path: '/js/vendor/modernizr-2.8.3.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\vendor\modernizr-2.8.3.min.js'
+2024-03-18 07:43:33.677 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - - - 200 15514 application/javascript 91.2062ms
+2024-03-18 07:43:33.683 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - -
+2024-03-18 07:43:33.737 +05:00 [INF] Sending file. Request path: '/js/bootstrap.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\bootstrap.min.js'
+2024-03-18 07:43:33.738 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - - - 200 37045 application/javascript 55.4434ms
+2024-03-18 07:43:33.740 +05:00 [INF] Sending file. Request path: '/js/vendor/jquery-1.12.4.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\vendor\jquery-1.12.4.min.js'
+2024-03-18 07:43:33.742 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - - - 200 97163 application/javascript 142.6449ms
+2024-03-18 07:43:34.026 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - -
+2024-03-18 07:43:34.078 +05:00 [INF] Sending file. Request path: '/js/owl.carousel.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\owl.carousel.min.js'
+2024-03-18 07:43:34.083 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - - - 200 77685 application/javascript 56.9179ms
+2024-03-18 07:43:34.280 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/favicon.ico - -
+2024-03-18 07:43:34.291 +05:00 [INF] Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\favicon.ico'
+2024-03-18 07:43:34.292 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/favicon.ico - - - 200 1150 image/x-icon 11.5711ms
+2024-03-18 07:43:37.209 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 07:43:37.215 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 5.9364ms
+2024-03-18 07:44:05.471 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-03-18 07:44:05.481 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 07:44:05.486 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-03-18 07:44:05.574 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 07:44:05.646 +05:00 [INF] Executed ViewResult - view Index executed in 72.9912ms.
+2024-03-18 07:44:05.646 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 159.6397ms
+2024-03-18 07:44:05.646 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 07:44:05.646 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room - - - 200 - text/html;+charset=utf-8 175.6536ms
+2024-03-18 07:44:05.698 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/room/5.jpg - -
+2024-03-18 07:44:05.698 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/room/6.jpg - -
+2024-03-18 07:44:05.709 +05:00 [INF] Sending file. Request path: '/img/room/5.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\room\5.jpg'
+2024-03-18 07:44:05.710 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/room/5.jpg - - - 200 135770 image/jpeg 12.2369ms
+2024-03-18 07:44:05.711 +05:00 [INF] Sending file. Request path: '/img/room/6.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\room\6.jpg'
+2024-03-18 07:44:05.713 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/room/6.jpg - - - 200 187035 image/jpeg 14.2793ms
+2024-03-18 07:44:05.839 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/room/7.jpg - -
+2024-03-18 07:44:05.845 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/room/8.jpg - -
+2024-03-18 07:44:05.847 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/1.png - -
+2024-03-18 07:44:05.850 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/room/9.jpg - -
+2024-03-18 07:44:05.850 +05:00 [INF] Sending file. Request path: '/img/client/1.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\1.png'
+2024-03-18 07:44:05.851 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/1.png - - - 200 4016 image/png 3.3979ms
+2024-03-18 07:44:05.852 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/2.png - -
+2024-03-18 07:44:05.852 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/1-hover.png - -
+2024-03-18 07:44:05.855 +05:00 [INF] Sending file. Request path: '/img/client/1-hover.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\1-hover.png'
+2024-03-18 07:44:05.856 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/1-hover.png - - - 200 3898 image/png 4.2154ms
+2024-03-18 07:44:05.856 +05:00 [INF] Sending file. Request path: '/img/client/2.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\2.png'
+2024-03-18 07:44:05.862 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/2-hover.png - -
+2024-03-18 07:44:05.865 +05:00 [INF] Sending file. Request path: '/img/room/7.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\room\7.jpg'
+2024-03-18 07:44:05.866 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/2.png - - - 200 4318 image/png 14.1563ms
+2024-03-18 07:44:05.866 +05:00 [INF] Sending file. Request path: '/img/client/2-hover.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\2-hover.png'
+2024-03-18 07:44:05.866 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/2-hover.png - - - 200 4319 image/png 4.7833ms
+2024-03-18 07:44:05.867 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/3.png - -
+2024-03-18 07:44:05.868 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/room/7.jpg - - - 200 117079 image/jpeg 28.7604ms
+2024-03-18 07:44:05.868 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/3-hover.png - -
+2024-03-18 07:44:05.869 +05:00 [INF] Sending file. Request path: '/img/client/3.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\3.png'
+2024-03-18 07:44:05.872 +05:00 [INF] Sending file. Request path: '/img/client/3-hover.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\3-hover.png'
+2024-03-18 07:44:05.872 +05:00 [INF] Sending file. Request path: '/img/room/9.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\room\9.jpg'
+2024-03-18 07:44:05.873 +05:00 [INF] Sending file. Request path: '/img/room/8.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\room\8.jpg'
+2024-03-18 07:44:05.874 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/3.png - - - 200 7396 image/png 6.7459ms
+2024-03-18 07:44:05.874 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/room/9.jpg - - - 200 130284 image/jpeg 24.2293ms
+2024-03-18 07:44:05.876 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/3-hover.png - - - 200 3598 image/png 6.6327ms
+2024-03-18 07:44:05.885 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/4.png - -
+2024-03-18 07:44:05.887 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/5.png - -
+2024-03-18 07:44:05.887 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/4-hover.png - -
+2024-03-18 07:44:05.887 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/client/5-hover.png - -
+2024-03-18 07:44:05.887 +05:00 [INF] Sending file. Request path: '/img/client/4.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\4.png'
+2024-03-18 07:44:05.888 +05:00 [INF] Sending file. Request path: '/img/client/4-hover.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\4-hover.png'
+2024-03-18 07:44:05.892 +05:00 [INF] Sending file. Request path: '/img/client/5.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\5.png'
+2024-03-18 07:44:05.893 +05:00 [INF] Sending file. Request path: '/img/client/5-hover.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\client\5-hover.png'
+2024-03-18 07:44:05.894 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/4-hover.png - - - 200 2887 image/png 7.1453ms
+2024-03-18 07:44:05.894 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/5.png - - - 200 3436 image/png 7.5220ms
+2024-03-18 07:44:05.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/4.png - - - 200 2817 image/png 12.7393ms
+2024-03-18 07:44:05.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/room/8.jpg - - - 200 162271 image/jpeg 53.3497ms
+2024-03-18 07:44:05.898 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/client/5-hover.png - - - 200 3473 image/png 11.2155ms
+2024-03-18 07:44:05.955 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 07:44:05.956 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 1.0737ms
+2024-03-18 07:44:05.957 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 07:44:05.959 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 1.3504ms
+2024-03-18 08:04:29.100 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:04:29.265 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:04:29.265 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:04:29.265 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:04:29.290 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:04:29.343 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:04:29.371 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:04:29.376 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'CSE6581.Hotel.ATR.Models.CustomExceptionFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 08:04:29.489 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 500 - text/html;+charset=utf-8 202.5623ms
+2024-03-18 08:04:29.655 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/favicon.ico - -
+2024-03-18 08:04:29.663 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/favicon.ico - - - 404 - - 8.5531ms
+2024-03-18 08:04:51.001 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:04:51.161 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:04:51.161 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:04:51.162 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:04:51.181 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:04:51.229 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:04:51.270 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:04:51.290 +05:00 [ERR] An exception occurred: Моя тестовая ошибка
+2024-03-18 08:04:51.299 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-18 08:04:51.327 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 52.7103ms
+2024-03-18 08:04:51.330 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:04:51.334 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at CSE6581.Hotel.ATR.Models.IEFilterAttribute.OnResourceExecuted(ResourceExecutedContext context) in C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\Models\IEAsyncFilterAttribute.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 08:04:51.440 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 500 - text/html;+charset=utf-8 262.7979ms
+2024-03-18 08:05:10.746 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:05:10.938 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:05:10.938 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:05:10.938 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:05:10.964 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:05:11.040 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:05:11.077 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:05:11.083 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'CSE6581.Hotel.ATR.Models.CustomExceptionFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 08:05:11.174 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 500 - text/html;+charset=utf-8 213.3527ms
+2024-03-18 08:07:10.213 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:07:10.560 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:07:10.560 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:07:10.560 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:07:10.601 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:07:10.692 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:07:10.747 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:07:10.755 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'CSE6581.Hotel.ATR.Models.CustomExceptionFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 08:07:10.913 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 500 - text/html;+charset=utf-8 312.6102ms
+2024-03-18 08:11:40.133 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:11:40.547 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:11:40.548 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:11:40.548 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:11:40.584 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:11:40.654 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:11:40.720 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:11:43.544 +05:00 [ERR] An exception occurred: Моя тестовая ошибка
+2024-03-18 08:11:43.557 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-18 08:11:47.171 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 6442.0879ms
+2024-03-18 08:11:47.174 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:11:47.181 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at AspNetCore.Views_Shared_Error.ExecuteAsync() in C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\Views\Shared\Error.cshtml:line 9
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAlwaysRunResultFilters>g__Awaited|26_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 08:11:47.360 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 500 - text/html;+charset=utf-8 6779.6614ms
+2024-03-18 08:12:25.466 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:12:25.852 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:12:25.852 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:12:25.853 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:12:25.886 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:12:25.946 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:12:26.012 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:13:48.553 +05:00 [ERR] An exception occurred: Моя тестовая ошибка
+2024-03-18 08:13:48.580 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-18 08:13:48.720 +05:00 [INF] Executed ViewResult - view Error executed in 158.2582ms.
+2024-03-18 08:13:48.722 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 82708.5319ms
+2024-03-18 08:13:48.722 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:13:48.737 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 82853.6927ms
+2024-03-18 08:46:25.227 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:46:25.633 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:46:25.633 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:46:25.633 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:46:25.666 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:46:25.732 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:46:25.791 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:46:42.389 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:46:42.753 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:46:42.753 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:46:42.753 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:46:42.796 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:46:42.862 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:46:42.920 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:46:42.955 +05:00 [INF] Accessing expired session, Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5
+2024-03-18 08:46:42.956 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 08:46:42.956 +05:00 [WRN] LogWarning
+2024-03-18 08:46:42.968 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 08:46:43.127 +05:00 [INF] Executed ViewResult - view Index executed in 163.0532ms.
+2024-03-18 08:46:47.493 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 4572.2302ms
+2024-03-18 08:46:47.495 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:46:47.514 +05:00 [INF] Session started; Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5, Id:193df65d-2b8b-b80e-1940-636e25f5b1f5
+2024-03-18 08:46:47.522 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at CSE6581.Hotel.ATR.Models.IEFilterAttribute.OnResourceExecuted(ResourceExecutedContext context) in C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\Models\IEAsyncFilterAttribute.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 08:46:47.591 +05:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-03-18 08:46:47.592 +05:00 [ERR] Connection ID "17942340929939570702", Request ID "8000000f-0003-f900-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at CSE6581.Hotel.ATR.Models.IEFilterAttribute.OnResourceExecuted(ResourceExecutedContext context) in C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\Models\IEAsyncFilterAttribute.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2024-03-18 08:46:47.608 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 4814.8785ms
+2024-03-18 08:47:04.569 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:47:04.582 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:47:04.583 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:47:04.585 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 08:47:04.585 +05:00 [WRN] LogWarning
+2024-03-18 08:47:04.586 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 08:47:04.594 +05:00 [INF] Executed ViewResult - view Index executed in 9.0569ms.
+2024-03-18 08:47:04.678 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/shortcodes.css - -
+2024-03-18 08:47:04.678 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css - -
+2024-03-18 08:47:08.110 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 3526.999ms
+2024-03-18 08:47:08.111 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:47:08.111 +05:00 [INF] Session started; Key:222e6e0c-7899-157e-3563-6918f94e53c1, Id:4a6038e0-d705-7a54-f1b3-51eab89e0dc4
+2024-03-18 08:47:08.112 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.NotImplementedException: The method or operation is not implemented.
+   at CSE6581.Hotel.ATR.Models.IEFilterAttribute.OnResourceExecuted(ResourceExecutedContext context) in C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\Models\IEAsyncFilterAttribute.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 08:47:08.113 +05:00 [WRN] The response has already started, the error page middleware will not be executed.
+2024-03-18 08:47:08.114 +05:00 [ERR] Connection ID "17870283323016740871", Request ID "80000008-0000-f800-b63f-84710c7967bb": An unhandled exception was thrown by the application.
+System.NotImplementedException: The method or operation is not implemented.
+   at CSE6581.Hotel.ATR.Models.IEFilterAttribute.OnResourceExecuted(ResourceExecutedContext context) in C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\Models\IEAsyncFilterAttribute.cs:line 30
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeNextResourceFilter()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IIS.Core.IISHttpContextOfT`1.ProcessRequestAsync()
+2024-03-18 08:47:08.116 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/responsive.css - -
+2024-03-18 08:47:08.130 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 3560.9103ms
+2024-03-18 08:47:08.131 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/style.css - -
+2024-03-18 08:47:08.151 +05:00 [INF] Sending file. Request path: '/css/shortcode/shortcodes.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\shortcodes.css'
+2024-03-18 08:47:08.159 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/font-awesome.min.css - -
+2024-03-18 08:47:08.157 +05:00 [INF] Sending file. Request path: '/css/responsive.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\responsive.css'
+2024-03-18 08:47:08.181 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - -
+2024-03-18 08:47:08.181 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/shortcodes.css - - - 200 667 text/css 3494.2247ms
+2024-03-18 08:47:08.189 +05:00 [INF] Sending file. Request path: '/js/vendor/modernizr-2.8.3.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\vendor\modernizr-2.8.3.min.js'
+2024-03-18 08:47:08.189 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/responsive.css - - - 200 11221 text/css 73.4561ms
+2024-03-18 08:47:08.190 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/logo/logo.png - -
+2024-03-18 08:47:08.190 +05:00 [INF] Sending file. Request path: '/style.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\style.css'
+2024-03-18 08:47:08.190 +05:00 [INF] Sending file. Request path: '/css/font-awesome.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\font-awesome.min.css'
+2024-03-18 08:47:08.197 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/style.css - - - 200 30445 text/css 65.1873ms
+2024-03-18 08:47:08.197 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/font-awesome.min.css - - - 200 31024 text/css 38.0802ms
+2024-03-18 08:47:08.201 +05:00 [INF] Sending file. Request path: '/img/logo/logo.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\logo\logo.png'
+2024-03-18 08:47:08.199 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/banner/4.jpg - -
+2024-03-18 08:47:08.206 +05:00 [INF] Sending file. Request path: '/css/bootstrap.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\bootstrap.min.css'
+2024-03-18 08:47:08.209 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/default.css - -
+2024-03-18 08:47:08.212 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/header.css - -
+2024-03-18 08:47:08.217 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/slider.css - -
+2024-03-18 08:47:08.252 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/logo/logo.png - - - 200 2876 image/png 62.3070ms
+2024-03-18 08:47:08.255 +05:00 [INF] Sending file. Request path: '/css/shortcode/default.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\default.css'
+2024-03-18 08:47:08.257 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/default.css - - - 200 17489 text/css 46.9516ms
+2024-03-18 08:47:08.260 +05:00 [INF] Sending file. Request path: '/css/shortcode/slider.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\slider.css'
+2024-03-18 08:47:08.270 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/slider.css - - - 200 3701 text/css 52.4804ms
+2024-03-18 08:47:08.270 +05:00 [INF] Sending file. Request path: '/css/shortcode/header.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\header.css'
+2024-03-18 08:47:08.282 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/header.css - - - 200 5127 text/css 70.7548ms
+2024-03-18 08:47:08.284 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/animate.css - -
+2024-03-18 08:47:08.284 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css - - - 200 121204 text/css 3605.6893ms
+2024-03-18 08:47:08.284 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/owl.carousel.css - -
+2024-03-18 08:47:08.284 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/magnific-popup.css - -
+2024-03-18 08:47:08.287 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/footer.css - -
+2024-03-18 08:47:08.320 +05:00 [INF] Sending file. Request path: '/css/magnific-popup.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\magnific-popup.css'
+2024-03-18 08:47:08.321 +05:00 [INF] Sending file. Request path: '/css/shortcode/footer.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\footer.css'
+2024-03-18 08:47:08.321 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - - - 200 15514 application/javascript 139.9973ms
+2024-03-18 08:47:08.321 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.css - -
+2024-03-18 08:47:08.329 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/magnific-popup.css - - - 200 5204 text/css 44.7748ms
+2024-03-18 08:47:08.353 +05:00 [INF] Sending file. Request path: '/css/owl.carousel.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\owl.carousel.css'
+2024-03-18 08:47:08.354 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/footer.css - - - 200 4238 text/css 66.2352ms
+2024-03-18 08:47:08.355 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/owl.carousel.css - - - 200 4614 text/css 70.1349ms
+2024-03-18 08:47:08.355 +05:00 [INF] Sending file. Request path: '/img/banner/4.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\banner\4.jpg'
+2024-03-18 08:47:08.357 +05:00 [INF] Sending file. Request path: '/css/material-design-iconic-font.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\material-design-iconic-font.css'
+2024-03-18 08:47:08.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/slick.css - -
+2024-03-18 08:47:08.357 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.min.css - -
+2024-03-18 08:47:08.362 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/meanmenu.min.css - -
+2024-03-18 08:47:08.368 +05:00 [INF] Sending file. Request path: '/css/animate.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\animate.css'
+2024-03-18 08:47:08.369 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.css - - - 200 85316 text/css 47.3762ms
+2024-03-18 08:47:08.383 +05:00 [INF] Sending file. Request path: '/css/meanmenu.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\meanmenu.min.css'
+2024-03-18 08:47:08.383 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/animate.css - - - 200 70824 text/css 99.0551ms
+2024-03-18 08:47:08.384 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/logo/footer-logo.png - -
+2024-03-18 08:47:08.385 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/meanmenu.min.css - - - 200 2968 text/css 22.5478ms
+2024-03-18 08:47:08.386 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/banner/4.jpg - - - 200 200374 image/jpeg 186.2628ms
+2024-03-18 08:47:08.387 +05:00 [INF] Sending file. Request path: '/css/material-design-iconic-font.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\material-design-iconic-font.min.css'
+2024-03-18 08:47:08.387 +05:00 [INF] Sending file. Request path: '/css/slick.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\slick.css'
+2024-03-18 08:47:08.388 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/slick.css - - - 200 1307 text/css 31.2992ms
+2024-03-18 08:47:08.397 +05:00 [INF] Sending file. Request path: '/img/logo/footer-logo.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\logo\footer-logo.png'
+2024-03-18 08:47:08.399 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.min.css - - - 200 70827 text/css 41.7640ms
+2024-03-18 08:47:08.400 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/1.jpg - -
+2024-03-18 08:47:08.400 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/logo/footer-logo.png - - - 200 2343 image/png 16.4222ms
+2024-03-18 08:47:08.403 +05:00 [INF] Sending file. Request path: '/img/footer/1.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\1.jpg'
+2024-03-18 08:47:08.404 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/1.jpg - - - 200 7131 image/jpeg 4.3618ms
+2024-03-18 08:47:08.406 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/2.jpg - -
+2024-03-18 08:47:08.408 +05:00 [INF] Sending file. Request path: '/img/footer/2.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\2.jpg'
+2024-03-18 08:47:08.410 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - -
+2024-03-18 08:47:08.416 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/2.jpg - - - 200 9331 image/jpeg 9.3843ms
+2024-03-18 08:47:08.417 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - -
+2024-03-18 08:47:08.419 +05:00 [INF] Sending file. Request path: '/js/vendor/jquery-1.12.4.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\vendor\jquery-1.12.4.min.js'
+2024-03-18 08:47:08.424 +05:00 [INF] Sending file. Request path: '/js/bootstrap.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\bootstrap.min.js'
+2024-03-18 08:47:08.428 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - - - 200 97163 application/javascript 17.1796ms
+2024-03-18 08:47:08.428 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - - - 200 37045 application/javascript 10.5785ms
+2024-03-18 08:47:08.436 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - -
+2024-03-18 08:47:08.436 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - -
+2024-03-18 08:47:08.439 +05:00 [INF] Sending file. Request path: '/js/owl.carousel.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\owl.carousel.min.js'
+2024-03-18 08:47:08.447 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - - - 200 77685 application/javascript 10.1758ms
+2024-03-18 08:47:08.451 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.ajaxchimp.min.js - -
+2024-03-18 08:47:08.463 +05:00 [INF] Sending file. Request path: '/js/ajax-mail.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\ajax-mail.js'
+2024-03-18 08:47:08.463 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - - - 200 1279 application/javascript 27.0923ms
+2024-03-18 08:47:08.468 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.meanmenu.js - -
+2024-03-18 08:47:08.481 +05:00 [INF] Sending file. Request path: '/js/jquery.ajaxchimp.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.ajaxchimp.min.js'
+2024-03-18 08:47:08.482 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.ajaxchimp.min.js - - - 200 2449 application/javascript 30.4578ms
+2024-03-18 08:47:08.485 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.counterup.min.js - -
+2024-03-18 08:47:08.503 +05:00 [INF] Sending file. Request path: '/js/jquery.meanmenu.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.meanmenu.js'
+2024-03-18 08:47:08.504 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.meanmenu.js - - - 200 11467 application/javascript 35.6141ms
+2024-03-18 08:47:08.514 +05:00 [INF] Sending file. Request path: '/js/jquery.counterup.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.counterup.min.js'
+2024-03-18 08:47:08.514 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.counterup.min.js - - - 200 1067 application/javascript 29.2287ms
+2024-03-18 08:47:08.553 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/waypoints.min.js - -
+2024-03-18 08:47:08.553 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/isotope.pkgd.min.js - -
+2024-03-18 08:47:08.555 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/plugins.js - -
+2024-03-18 08:47:08.555 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/imagesloaded.pkgd.min.js - -
+2024-03-18 08:47:08.619 +05:00 [INF] Sending file. Request path: '/js/waypoints.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\waypoints.min.js'
+2024-03-18 08:47:08.620 +05:00 [INF] Sending file. Request path: '/js/imagesloaded.pkgd.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\imagesloaded.pkgd.min.js'
+2024-03-18 08:47:08.620 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.magnific-popup.js - -
+2024-03-18 08:47:08.622 +05:00 [INF] Sending file. Request path: '/js/isotope.pkgd.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\isotope.pkgd.min.js'
+2024-03-18 08:47:08.622 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/main.js - -
+2024-03-18 08:47:08.651 +05:00 [INF] Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\main.js'
+2024-03-18 08:47:08.654 +05:00 [INF] Sending file. Request path: '/js/plugins.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\plugins.js'
+2024-03-18 08:47:08.690 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/waypoints.min.js - - - 200 8044 application/javascript 136.8828ms
+2024-03-18 08:47:08.690 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/isotope.pkgd.min.js - - - 200 34695 application/javascript 137.0524ms
+2024-03-18 08:47:08.691 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/imagesloaded.pkgd.min.js - - - 200 5441 application/javascript 135.2998ms
+2024-03-18 08:47:08.691 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/main.js - - - 200 6880 application/javascript 68.7561ms
+2024-03-18 08:47:08.712 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/slider/1.jpg - -
+2024-03-18 08:47:08.713 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/plugins.js - - - 200 54000 application/javascript 157.5867ms
+2024-03-18 08:47:08.714 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/3.jpg - -
+2024-03-18 08:47:08.728 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/4.jpg - -
+2024-03-18 08:47:08.729 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/fonts/Material-Design-Iconic-Fontd1f1.woff2?v=2.2.0 - -
+2024-03-18 08:47:08.729 +05:00 [INF] Sending file. Request path: '/img/footer/3.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\3.jpg'
+2024-03-18 08:47:08.731 +05:00 [INF] Sending file. Request path: '/img/footer/4.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\4.jpg'
+2024-03-18 08:47:08.732 +05:00 [INF] Sending file. Request path: '/js/jquery.magnific-popup.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.magnific-popup.js'
+2024-03-18 08:47:08.738 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/5.jpg - -
+2024-03-18 08:47:08.738 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/3.jpg - - - 200 10820 image/jpeg 24.4148ms
+2024-03-18 08:47:08.747 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.magnific-popup.js - - - 200 41742 application/javascript 125.6859ms
+2024-03-18 08:47:08.747 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/4.jpg - - - 200 9987 image/jpeg 19.1522ms
+2024-03-18 08:47:08.747 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/6.jpg - -
+2024-03-18 08:47:08.751 +05:00 [INF] Sending file. Request path: '/fonts/Material-Design-Iconic-Fontd1f1.woff2'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\fonts\Material-Design-Iconic-Fontd1f1.woff2'
+2024-03-18 08:47:08.772 +05:00 [INF] Sending file. Request path: '/img/footer/5.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\5.jpg'
+2024-03-18 08:47:08.784 +05:00 [INF] Sending file. Request path: '/img/footer/6.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\6.jpg'
+2024-03-18 08:47:08.814 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/slider/2.jpg - -
+2024-03-18 08:47:08.815 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/fonts/Material-Design-Iconic-Fontd1f1.woff2?v=2.2.0 - - - 200 38384 font/woff2 86.2181ms
+2024-03-18 08:47:08.819 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/6.jpg - - - 200 9719 image/jpeg 71.7128ms
+2024-03-18 08:47:08.820 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/5.jpg - - - 200 8597 image/jpeg 81.6392ms
+2024-03-18 08:47:08.911 +05:00 [INF] Sending file. Request path: '/img/slider/2.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\slider\2.jpg'
+2024-03-18 08:47:08.918 +05:00 [INF] Sending file. Request path: '/img/slider/1.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\slider\1.jpg'
+2024-03-18 08:47:08.928 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/slider/2.jpg - - - 200 1336260 image/jpeg 114.3974ms
+2024-03-18 08:47:08.935 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/slider/1.jpg - - - 200 1720959 image/jpeg 222.7014ms
+2024-03-18 08:47:08.968 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/favicon.ico - -
+2024-03-18 08:47:08.973 +05:00 [INF] Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\favicon.ico'
+2024-03-18 08:47:08.977 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/favicon.ico - - - 200 1150 image/x-icon 8.7981ms
+2024-03-18 08:47:11.590 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0 - -
+2024-03-18 08:47:11.606 +05:00 [INF] Sending file. Request path: '/fonts/fontawesome-webfont3e6e.woff2'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\fonts\fontawesome-webfont3e6e.woff2'
+2024-03-18 08:47:11.608 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0 - - - 200 77160 font/woff2 17.5464ms
+2024-03-18 08:47:31.023 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:47:31.027 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:47:31.028 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:47:31.028 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 08:47:31.028 +05:00 [WRN] LogWarning
+2024-03-18 08:47:31.028 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 08:47:31.073 +05:00 [INF] Executed ViewResult - view Index executed in 45.3514ms.
+2024-03-18 08:47:47.235 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:47:47.813 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:47:47.814 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:47:47.814 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:47:47.862 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:47:47.966 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:47:48.057 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:47:48.115 +05:00 [INF] Accessing expired session, Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5
+2024-03-18 08:47:48.116 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 08:47:48.116 +05:00 [WRN] LogWarning
+2024-03-18 08:47:48.135 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 08:47:48.474 +05:00 [INF] Executed ViewResult - view Index executed in 345.8456ms.
+2024-03-18 08:47:48.477 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 419.4062ms
+2024-03-18 08:47:48.480 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:47:48.505 +05:00 [INF] Session started; Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5, Id:e9b79d53-b590-1d9d-8338-df1826418929
+2024-03-18 08:47:48.549 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 692.0673ms
+2024-03-18 08:47:52.141 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:47:52.145 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:47:52.147 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:48:36.669 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:48:37.007 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:48:37.007 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:48:37.007 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:48:37.060 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:48:37.165 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:48:37.221 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:48:45.501 +05:00 [INF] Executing ContentResult with HTTP Response ContentType of text/plain; charset=utf-8
+2024-03-18 08:48:45.538 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 8311.8026ms
+2024-03-18 08:48:45.539 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:48:45.564 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 36 text/plain;+charset=utf-8 8508.3598ms
+2024-03-18 08:57:18.998 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:57:19.322 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:57:19.323 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:57:19.323 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:57:19.353 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:57:19.422 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:57:19.476 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:57:59.221 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:57:59.544 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:57:59.544 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:57:59.544 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:57:59.576 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:57:59.637 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:57:59.702 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:58:21.635 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 08:58:22.020 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 08:58:22.021 +05:00 [INF] Hosting environment: Development
+2024-03-18 08:58:22.021 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 08:58:22.053 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:58:22.118 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:58:22.194 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:58:22.226 +05:00 [INF] Accessing expired session, Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5
+2024-03-18 08:58:22.227 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 08:58:22.228 +05:00 [WRN] LogWarning
+2024-03-18 08:58:29.820 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 08:58:29.979 +05:00 [INF] Executed ViewResult - view Index executed in 163.5628ms.
+2024-03-18 08:58:29.981 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 7786.6478ms
+2024-03-18 08:58:29.983 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:58:29.990 +05:00 [INF] Session started; Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5, Id:8384cab3-b154-16e7-6a44-89912ccb33ef
+2024-03-18 08:58:30.029 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 7978.6387ms
+2024-03-18 08:58:34.996 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 08:58:34.997 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 08:58:34.998 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 08:58:46.278 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 08:58:47.133 +05:00 [WRN] LogWarning
+2024-03-18 09:04:58.399 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 09:04:58.743 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 09:04:58.743 +05:00 [INF] Hosting environment: Development
+2024-03-18 09:04:58.743 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 09:04:58.778 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:04:58.841 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:04:58.895 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:05:04.671 +05:00 [INF] Accessing expired session, Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5
+2024-03-18 09:05:04.672 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 09:05:04.673 +05:00 [WRN] LogWarning
+2024-03-18 09:05:39.367 +05:00 [ERR] An exception occurred: Value cannot be null. (Parameter 'logger')
+2024-03-18 09:05:39.389 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-18 09:05:39.519 +05:00 [INF] Executed ViewResult - view Error executed in 137.0972ms.
+2024-03-18 09:05:39.522 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 40625.613ms
+2024-03-18 09:05:39.523 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:05:39.530 +05:00 [INF] Session started; Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5, Id:6e3e931c-1b8f-2963-9e5d-76cb692881c2
+2024-03-18 09:05:39.546 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 40767.5022ms
+2024-03-18 09:15:55.366 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 09:15:55.720 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 09:15:55.720 +05:00 [INF] Hosting environment: Development
+2024-03-18 09:15:55.720 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 09:15:55.762 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:15:55.834 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:15:55.897 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:15:58.756 +05:00 [INF] Accessing expired session, Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5
+2024-03-18 09:15:58.757 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 09:15:58.757 +05:00 [WRN] LogWarning
+2024-03-18 09:16:05.187 +05:00 [ERR] An exception occurred: Value cannot be null. (Parameter 'logger')
+2024-03-18 09:16:05.206 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-18 09:16:05.354 +05:00 [INF] Executed ViewResult - view Error executed in 152.4985ms.
+2024-03-18 09:16:05.356 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 9458.0042ms
+2024-03-18 09:16:05.357 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:05.364 +05:00 [INF] Session started; Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5, Id:a0dc27a6-3d72-977b-38e7-825d1e6a46a1
+2024-03-18 09:16:05.398 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 9641.9144ms
+2024-03-18 09:16:21.415 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 09:16:21.743 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 09:16:21.743 +05:00 [INF] Hosting environment: Development
+2024-03-18 09:16:21.743 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 09:16:21.775 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:16:21.842 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:21.917 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:16:21.944 +05:00 [INF] Accessing expired session, Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5
+2024-03-18 09:16:21.945 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 09:16:21.945 +05:00 [WRN] LogWarning
+2024-03-18 09:16:21.957 +05:00 [INF] Executing ViewResult, running view Login.
+2024-03-18 09:16:22.088 +05:00 [INF] Executed ViewResult - view Login executed in 133.566ms.
+2024-03-18 09:16:22.089 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 172.2017ms
+2024-03-18 09:16:22.090 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:22.099 +05:00 [INF] Session started; Key:9279eefb-5f1d-9fe9-5fa4-4ee6f17adfe5, Id:9d36a143-c128-3fd2-3d1e-03389e07747d
+2024-03-18 09:16:22.126 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 353.2582ms
+2024-03-18 09:16:28.028 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:16:28.032 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:28.033 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:16:28.034 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 09:16:28.035 +05:00 [WRN] LogWarning
+2024-03-18 09:16:28.035 +05:00 [INF] Executing ViewResult, running view Login.
+2024-03-18 09:16:28.042 +05:00 [INF] Executed ViewResult - view Login executed in 6.8128ms.
+2024-03-18 09:16:28.042 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 9.548ms
+2024-03-18 09:16:28.042 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:28.050 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 22.1533ms
+2024-03-18 09:16:29.795 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:16:29.799 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:29.799 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:16:29.800 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 09:16:29.800 +05:00 [WRN] LogWarning
+2024-03-18 09:16:29.800 +05:00 [INF] Executing ViewResult, running view Login.
+2024-03-18 09:16:29.803 +05:00 [INF] Executed ViewResult - view Login executed in 2.9505ms.
+2024-03-18 09:16:29.803 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 3.7999ms
+2024-03-18 09:16:29.803 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:29.808 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 12.7120ms
+2024-03-18 09:16:31.846 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:16:31.847 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:31.848 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:16:31.848 +05:00 [ERR] У пользователя ok@ok.kz возникла ошибка ОШИБКА с кодом 666
+2024-03-18 09:16:31.849 +05:00 [WRN] LogWarning
+2024-03-18 09:16:31.849 +05:00 [INF] Executing ViewResult, running view Login.
+2024-03-18 09:16:31.850 +05:00 [INF] Executed ViewResult - view Login executed in 1.675ms.
+2024-03-18 09:16:31.851 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 2.7689ms
+2024-03-18 09:16:31.851 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:16:31.852 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 9.0093ms
+2024-03-18 09:21:27.191 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 09:21:27.545 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 09:21:27.545 +05:00 [INF] Hosting environment: Development
+2024-03-18 09:21:27.545 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 09:21:27.577 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:21:27.646 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:21:27.693 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:21:27.701 +05:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No service for type 'CSE6581.Hotel.ATR.Models.CustomExceptionFilter' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.AspNetCore.Mvc.ServiceFilterAttribute.CreateInstance(IServiceProvider serviceProvider)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.ProvideFilter(FilterProviderContext context, FilterItem filterItem)
+   at Microsoft.AspNetCore.Mvc.Filters.DefaultFilterProvider.OnProvidersExecuting(FilterProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.CreateUncachedFiltersCore(IFilterProvider[] filterProviders, ActionContext actionContext, List`1 filterItems)
+   at Microsoft.AspNetCore.Mvc.Filters.FilterFactory.GetAllFilters(IFilterProvider[] filterProviders, ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerCache.GetCachedResult(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvokerProvider.OnProvidersExecuting(ActionInvokerProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionInvokerFactory.CreateInvoker(ActionContext actionContext)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.<>c__DisplayClass7_0.<CreateRequestDelegate>b__0(HttpContext context)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.Invoke(HttpContext httpContext)
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Localization.RequestLocalizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2024-03-18 09:21:27.818 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 500 - text/html;+charset=utf-8 241.4269ms
+2024-03-18 09:22:08.521 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-18 09:22:08.864 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-18 09:22:08.864 +05:00 [INF] Hosting environment: Development
+2024-03-18 09:22:08.864 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-18 09:22:08.895 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:22:08.961 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:22:09.022 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:22:56.577 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-18 09:22:56.706 +05:00 [INF] Executed ViewResult - view Error executed in 154.9565ms.
+2024-03-18 09:22:56.707 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 47684.6463ms
+2024-03-18 09:22:56.708 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:22:56.717 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 47824.8227ms
