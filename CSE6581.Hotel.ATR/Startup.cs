@@ -2,8 +2,10 @@ using CSE6581.Hotel.ATR.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Localization;
 using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,8 +33,18 @@ namespace CSE6581.Hotel.ATR
         {
             services.AddControllersWithViews();
 
-            services.AddControllers(options => 
-            { 
+
+
+            var connectionString = Configuration.GetConnectionString("DefaultConnection");
+
+            services.AddDbContext<HotelAtrContext>(options =>
+            options.UseSqlServer(connectionString));
+
+
+
+
+            services.AddControllers(options =>
+            {
                 options.Filters.Add<CustomExceptionFilter>();
 
             });
@@ -101,6 +113,17 @@ namespace CSE6581.Hotel.ATR
             app.UseSession();
 
             app.UseRouting();
+
+
+            app.Map("/hc", appMap =>
+            {
+                appMap.Run(async context =>
+                {
+                    await context.Response.WriteAsync("Hello from middleware");
+                });
+
+            });
+
 
             var locOptions = app.ApplicationServices
                 .GetService<IOptions<RequestLocalizationOptions>>();

@@ -1,14 +1,9 @@
-﻿@model User
-
-@{ int page = ViewBag.Page; }
+﻿@model List<Room>
 
 @section styles
 {
     <link rel="stylesheet" href="~/css/bootstrap.min.css">
 }
-
-
-
 
 <!-- Breadcrumb Area Start-->
 <section class="breadcrumb-area overlay-dark-2 bg-3">
@@ -21,7 +16,7 @@
                     <div class="breadcrumb-bar">
                         <ul class="breadcrumb">
                             <li><a href="index.html">Home</a></li>
-                            <li>Room - grid view - @ViewBag.Page - @Model.email</li>
+                            <li>Room - grid view</li>
                         </ul>
                     </div>
                 </div>
@@ -44,115 +39,30 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-room">
-                    <img src="img/room/5.jpg" alt="">
-                    <div class="room-hover text-center">
-                        <div class="hover-text">
-                            <h3><a href="room-details.html">Single Room</a></h3>
-                            <div class="p-amount">
-                                <span>$220</span>
-                                <span class="count">Per Night</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                            <div class="room-btn">
-                                <a href="room-details.html" class="default-btn">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-room">
-                    <img src="img/room/6.jpg" alt="">
-                    <div class="room-hover text-center">
-                        <div class="hover-text">
-                            <h3><a href="room-details.html">Deluxe Suit</a></h3>
-                            <div class="p-amount">
-                                <span>$150</span>
-                                <span class="count">Per Night</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                            <div class="room-btn">
-                                <a href="room-details.html" class="default-btn">DETAILS</a>
+
+            @foreach (Room room in Model)
+            {
+                <div class="col-md-4 col-sm-6 col-xs-12">
+                    <div class="single-room">
+                        <img src="@room.PathImage" alt="">
+                        <div class="room-hover text-center">
+                            <div class="hover-text">
+                                <h3><a href="room-details.html">@room.Name</a></h3>
+                                <div class="p-amount">
+                                    <span>$@room.Price</span>
+                                    <span class="count">Per Night</span>
+                                </div>
+                                <p>@room.Description</p>
+                                <div class="room-btn">
+                                    <a href="@Url.Action("RoomDetails", "Room", new {id=room.Id })" class="default-btn">DETAILS</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-room">
-                    <img src="img/room/7.jpg" alt="">
-                    <div class="room-hover text-center">
-                        <div class="hover-text">
-                            <h3><a href="room-details.html">Royal Suit</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                            <div class="p-amount">
-                                <span>$240</span>
-                                <span class="count">Per Night</span>
-                            </div>
-                            <div class="room-btn">
-                                <a href="room-details.html" class="default-btn">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-room">
-                    <img src="img/room/8.jpg" alt="">
-                    <div class="room-hover text-center">
-                        <div class="hover-text">
-                            <h3><a href="room-details.html">Double Room</a></h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                            <div class="p-amount">
-                                <span>$180</span>
-                                <span class="count">Per Night</span>
-                            </div>
-                            <div class="room-btn">
-                                <a href="room-details.html" class="default-btn">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-room">
-                    <img src="img/room/9.jpg" alt="">
-                    <div class="room-hover text-center">
-                        <div class="hover-text">
-                            <h3><a href="room-details.html">Deluxe Suit</a></h3>
-                            <div class="p-amount">
-                                <span>$130</span>
-                                <span class="count">Per Night</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                            <div class="room-btn">
-                                <a href="room-details.html" class="default-btn">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4 col-sm-6 col-xs-12">
-                <div class="single-room">
-                    <img src="img/room/5.jpg" alt="">
-                    <div class="room-hover text-center">
-                        <div class="hover-text">
-                            <h3><a href="room-details.html">Single Room</a></h3>
-                            <div class="p-amount">
-                                <span>$220</span>
-                                <span class="count">Per Night</span>
-                            </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor</p>
-                            <div class="room-btn">
-                                <a href="room-details.html" class="default-btn">DETAILS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 fix">
+            }
+
+            @*<div class="col-md-12 fix">
                 <div class="pagination-content text-center">
                     <ul class="pagination">
                         <li><a href="#">1</a></li>
@@ -160,7 +70,7 @@
                         <li><a href="#">3</a></li>
                     </ul>
                 </div>
-            </div>
+            </div>*@
         </div>
     </div>
 </section>

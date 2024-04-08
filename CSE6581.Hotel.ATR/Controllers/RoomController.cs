@@ -13,20 +13,19 @@ namespace CSE6581.Hotel.ATR.Controllers
     public class RoomController : Controller
     {
         private IWebHostEnvironment host;
-        public RoomController(IWebHostEnvironment host)
+        private HotelAtrContext _db;
+
+        public RoomController(IWebHostEnvironment host, HotelAtrContext db)
         {
             this.host = host;
+            _db = db;
         }
 
         public IActionResult Index(int page)
         {
-            //connect to db db.Users().ToList();
+            List<Room> listRooms = _db.Rooms.ToList();
 
-            ViewBag.Page = 666;
-
-            User user = new User() { email="ok@ok.kz"};
-
-            return View(user);
+            return View(listRooms);
         }
 
         public IActionResult RoomList()
@@ -34,7 +33,7 @@ namespace CSE6581.Hotel.ATR.Controllers
             return View();
         }
 
-        public IActionResult RoomDetails()
+        public IActionResult RoomDetails(int id)
         {
             return View();
         }

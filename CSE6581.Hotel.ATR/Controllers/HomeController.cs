@@ -19,63 +19,19 @@ namespace CSE6581.Hotel.ATR.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private HotelAtrContext _db;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, HotelAtrContext db)
         {
             _logger = logger;
+            _db = db;
         }
 
-      
+        [TypeFilter(typeof(CustomExceptionFilter), Order =2)]
         [TimeElapsed]
-        [CustomExceptionFilter]
         public IActionResult Index(string culture="")
         {
-            //--
-            GetCulture(culture);
-
-            throw new Exception("Моя тестовая ошибка");
-
-            #region old
-            string key = "IIN";
-            string value = "880111300392";
-
-            CookieOptions options = new CookieOptions();
-            options.Expires = DateTime.Now.AddDays(1);
-
-            //Добавии куки набор
-            Response.Cookies.Append(key, value, options);
-
-            //получить куки набор
-            var iin = Request.Cookies[key];
-
-            //удалили куки набор
-            //Response.Cookies.Delete(key);
-
-
-            //Установили сессию, поместили значение в сессию
-            HttpContext.Session.SetString("URL", "ok.kz");
-
-            if (HttpContext.Session.GetString("URL") != null)
-            {
-                var url = HttpContext.Session.GetString("URL");
-            }
-
-
-            User user = new User();
-            user.email = "ok@ok.kz";
-
-            _logger.LogError("У пользователя {email} возникла ошибка {errorMessage} с кодом {errorCode}",
-                user.email, "ОШИБКА", 666);
-
-            _logger.LogDebug("LogDebug");
-            _logger.LogWarning("LogWarning");
-            #endregion
-
-            //--
-
-            //--
             return View();
-            //--
         }
 
         public string GetCulture(string code)

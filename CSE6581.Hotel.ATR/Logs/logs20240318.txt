@@ -695,3 +695,95 @@ System.InvalidOperationException: No service for type 'CSE6581.Hotel.ATR.Models.
 2024-03-18 09:22:56.707 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 47684.6463ms
 2024-03-18 09:22:56.708 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
 2024-03-18 09:22:56.717 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 47824.8227ms
+2024-03-18 09:51:05.193 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 09:51:05.209 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 16.7448ms
+2024-03-18 09:51:20.957 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-18 09:51:20.966 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:51:20.972 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-18 09:51:31.182 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-18 09:51:31.189 +05:00 [INF] Executed ViewResult - view Error executed in 9.3202ms.
+2024-03-18 09:51:31.189 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 10216.6652ms
+2024-03-18 09:51:31.189 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:51:31.197 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 10236.1383ms
+2024-03-18 09:51:31.447 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 09:51:31.453 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 5.3506ms
+2024-03-18 09:51:48.582 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/index - -
+2024-03-18 09:51:48.583 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:51:48.589 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-03-18 09:51:51.997 +05:00 [INF] Executing ViewResult, running view Index.
+2024-03-18 09:51:53.807 +05:00 [INF] Executed ViewResult - view Index executed in 1810.8729ms.
+2024-03-18 09:51:53.807 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 5217.7191ms
+2024-03-18 09:51:53.807 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-03-18 09:51:53.823 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/index - - - 200 - text/html;+charset=utf-8 5225.5218ms
+2024-03-18 09:51:53.923 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/room/5.jpg - -
+2024-03-18 09:51:53.924 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/room/6.jpg - -
+2024-03-18 09:51:53.925 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 09:51:53.928 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/room/6.jpg - - - 404 - - 4.4986ms
+2024-03-18 09:51:53.936 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/room/5.jpg - - - 404 - - 13.1487ms
+2024-03-18 09:51:53.951 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 26.3284ms
+2024-03-18 09:51:54.039 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/room/7.jpg - -
+2024-03-18 09:51:54.042 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/room/8.jpg - -
+2024-03-18 09:51:54.046 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/room/8.jpg - - - 404 - - 4.4801ms
+2024-03-18 09:51:54.049 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/room/7.jpg - - - 404 - - 10.4629ms
+2024-03-18 09:51:54.053 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/room/9.jpg - -
+2024-03-18 09:51:54.055 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/2.png - -
+2024-03-18 09:51:54.056 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/1-hover.png - -
+2024-03-18 09:51:54.068 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/2-hover.png - -
+2024-03-18 09:51:54.098 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/3.png - -
+2024-03-18 09:51:54.100 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/1.png - -
+2024-03-18 09:51:54.106 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/room/9.jpg - - - 404 - - 53.2427ms
+2024-03-18 09:51:54.136 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/2.png - - - 404 - - 81.0202ms
+2024-03-18 09:51:54.141 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/2-hover.png - - - 404 - - 72.2155ms
+2024-03-18 09:51:54.161 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/3.png - - - 404 - - 62.9792ms
+2024-03-18 09:51:54.168 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/1.png - - - 404 - - 65.2990ms
+2024-03-18 09:51:54.202 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/1-hover.png - - - 404 - - 145.7674ms
+2024-03-18 09:51:54.216 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/4.png - -
+2024-03-18 09:51:54.217 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/3-hover.png - -
+2024-03-18 09:51:54.218 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/4-hover.png - -
+2024-03-18 09:51:54.219 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/5.png - -
+2024-03-18 09:51:54.232 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/5-hover.png - -
+2024-03-18 09:51:54.232 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 09:51:54.233 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/4-hover.png - - - 404 - - 15.0690ms
+2024-03-18 09:51:54.233 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/3-hover.png - - - 404 - - 16.1612ms
+2024-03-18 09:51:54.233 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/5.png - - - 404 - - 14.1030ms
+2024-03-18 09:51:54.234 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/4.png - - - 404 - - 17.8229ms
+2024-03-18 09:51:54.238 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/5-hover.png - - - 404 - - 4.9312ms
+2024-03-18 09:51:54.238 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 6.1376ms
+2024-03-18 09:51:54.397 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/logo/footer-logo.png - -
+2024-03-18 09:51:54.413 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/footer/4.jpg - -
+2024-03-18 09:51:54.414 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/footer/5.jpg - -
+2024-03-18 09:51:54.417 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/footer/2.jpg - -
+2024-03-18 09:51:54.419 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/footer/1.jpg - -
+2024-03-18 09:51:54.461 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/footer/3.jpg - -
+2024-03-18 09:51:54.478 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/footer/2.jpg - - - 404 - - 61.2632ms
+2024-03-18 09:51:54.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/footer/1.jpg - - - 404 - - 59.5735ms
+2024-03-18 09:51:54.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/footer/5.jpg - - - 404 - - 75.3570ms
+2024-03-18 09:51:54.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/footer/3.jpg - - - 404 - - 29.5289ms
+2024-03-18 09:51:54.490 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/logo/footer-logo.png - - - 404 - - 93.7389ms
+2024-03-18 09:51:54.503 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - -
+2024-03-18 09:51:54.503 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/footer/6.jpg - -
+2024-03-18 09:51:54.503 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/1-hover.png - -
+2024-03-18 09:51:54.510 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/5.png - -
+2024-03-18 09:51:54.510 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/room/5.jpg - -
+2024-03-18 09:51:54.513 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/1.png - -
+2024-03-18 09:51:54.513 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/5-hover.png - -
+2024-03-18 09:51:54.514 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/footer/6.jpg - - - 404 - - 11.3094ms
+2024-03-18 09:51:54.514 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css.map - - - 404 - - 11.4388ms
+2024-03-18 09:51:54.521 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/2.png - -
+2024-03-18 09:51:54.522 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/footer/4.jpg - - - 404 - - 124.4709ms
+2024-03-18 09:51:54.522 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/5-hover.png - - - 404 - - 9.1108ms
+2024-03-18 09:51:54.531 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/5.png - - - 404 - - 20.5576ms
+2024-03-18 09:51:54.531 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/1-hover.png - - - 404 - - 27.7520ms
+2024-03-18 09:51:54.527 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/room/5.jpg - - - 404 - - 16.5568ms
+2024-03-18 09:51:54.531 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/2.png - - - 404 - - 10.6611ms
+2024-03-18 09:51:54.534 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/1.png - - - 404 - - 20.4853ms
+2024-03-18 09:51:54.539 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/2-hover.png - -
+2024-03-18 09:51:54.545 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/3-hover.png - -
+2024-03-18 09:51:54.545 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/4.png - -
+2024-03-18 09:51:54.545 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/4-hover.png - -
+2024-03-18 09:51:54.546 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/room/img/client/3.png - -
+2024-03-18 09:51:54.552 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/3-hover.png - - - 404 - - 6.8053ms
+2024-03-18 09:51:54.558 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/4.png - - - 404 - - 12.6388ms
+2024-03-18 09:51:54.558 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/3.png - - - 404 - - 12.3918ms
+2024-03-18 09:51:54.563 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/4-hover.png - - - 404 - - 17.0192ms
+2024-03-18 09:51:54.552 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/room/img/client/2-hover.png - - - 404 - - 12.9183ms

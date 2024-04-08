@@ -11,7 +11,10 @@ namespace CSE6581.Hotel.ATR.Models
         public void OnResourceExecuting(ResourceExecutingContext context)
         {
             // Код, выполняемый перед действием
-            context.HttpContext.Response.Headers.Add("X-Custom-Header", "MyCustomValue");
+            context.HttpContext
+                .Response
+                .Headers
+                .Add("X-Custom-Header", "MyCustomValue");
         }
         public void OnResourceExecuted(ResourceExecutedContext context)
         {

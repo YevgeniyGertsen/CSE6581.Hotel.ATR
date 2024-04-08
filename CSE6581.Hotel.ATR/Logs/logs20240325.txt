@@ -1,0 +1,22 @@
+2024-03-25 08:40:12.459 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-03-25 08:40:13.256 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-03-25 08:40:13.256 +05:00 [INF] Hosting environment: Development
+2024-03-25 08:40:13.256 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-03-25 08:40:13.329 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-03-25 08:40:13.444 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-25 08:40:13.535 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-03-25 08:40:18.363 +05:00 [INF] Executing ViewResult, running view Error.
+2024-03-25 08:40:18.512 +05:00 [INF] Executed ViewResult - view Error executed in 156.9255ms.
+2024-03-25 08:40:18.514 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 4977.9411ms
+2024-03-25 08:40:18.515 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-03-25 08:40:18.532 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 5207.1985ms
+2024-03-25 08:40:19.108 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - -
+2024-03-25 08:40:19.116 +05:00 [INF] The file /js/ajax-mail.js was not modified
+2024-03-25 08:40:19.118 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - - - 304 - application/javascript 10.3654ms
+2024-03-25 08:40:19.178 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/main.js - -
+2024-03-25 08:40:19.179 +05:00 [INF] The file /js/main.js was not modified
+2024-03-25 08:40:19.179 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/main.js - - - 304 - application/javascript 1.8852ms
+2024-03-25 08:40:35.198 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/hc - -
+2024-03-25 08:40:35.233 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/hc - - - 200 - - 31.4634ms
+2024-03-25 08:40:35.315 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/favicon.ico - -
+2024-03-25 08:40:35.322 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/favicon.ico - - - 404 - - 7.5014ms
