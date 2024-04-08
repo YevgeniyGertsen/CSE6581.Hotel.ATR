@@ -4,14 +4,16 @@ using CSE6581.Hotel.ATR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CSE6581.Hotel.ATR.Migrations
 {
     [DbContext(typeof(HotelAtrContext))]
-    partial class HotelAtrContextModelSnapshot : ModelSnapshot
+    [Migration("20240408041700_addСlients-AltImage")]
+    partial class addСlientsAltImage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -67,9 +69,6 @@ namespace CSE6581.Hotel.ATR.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("PathImage")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("PathLargeImage")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")

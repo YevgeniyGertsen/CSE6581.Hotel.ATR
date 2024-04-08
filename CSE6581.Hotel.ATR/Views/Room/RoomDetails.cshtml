@@ -1,4 +1,6 @@
-﻿<!-- Breadcrumb Area Start-->
+﻿@model Room
+
+<!-- Breadcrumb Area Start-->
 <section class="breadcrumb-area overlay-dark-2 bg-3">
     <div class="container">
         <div class="row">
@@ -18,6 +20,9 @@
     </div>
 </section>
 <!-- Breadcrumb Area End -->
+
+
+
 <!-- Room Details Area Start -->
 <section class="room-details pt-90">
     <div class="container">
@@ -26,9 +31,9 @@
                 <div class="room-slider-wrapper">
                     <div class="room-slider">
                         <div class="slider-image">
-                            <img src="img/room/l-1.jpg" alt="">
+                            <img src="@Model.PathLargeImage" alt="">
                             <div class="cost">
-                                <h2>$ 350</h2>
+                                <h2>$ @Model.Price</h2>
                                 <span>Per Night</span>
                             </div>
                         </div>
@@ -293,6 +298,8 @@
     </div>
 </section>
 <!-- Room Details Area End -->
+
+
 <!-- Client Area Start -->
 <div class="client-area">
     <div class="container">

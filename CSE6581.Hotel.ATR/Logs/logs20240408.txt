@@ -622,3 +622,340 @@ FROM [Rooms] AS [r]
 2024-04-08 09:06:13.695 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/favicon.ico - -
 2024-04-08 09:06:13.711 +05:00 [INF] Sending file. Request path: '/img/favicon.ico'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\favicon.ico'
 2024-04-08 09:06:13.714 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/favicon.ico - - - 200 1150 image/x-icon 17.7351ms
+2024-04-08 09:10:55.025 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:11:02.075 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:11:02.434 +05:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:11:02.470 +05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:11:02.474 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:11:02.475 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:11:02.496 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-08 09:11:02.517 +05:00 [INF] Applying migration '20240408041055_addСlients'.
+2024-04-08 09:11:02.563 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Сlients] (
+    [Id] int NOT NULL IDENTITY,
+    [Url] nvarchar(max) NULL,
+    [ImagePath] nvarchar(max) NULL,
+    [ImagePathHover] nvarchar(max) NULL,
+    CONSTRAINT [PK_Сlients] PRIMARY KEY ([Id])
+);
+2024-04-08 09:11:02.564 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240408041055_addСlients', N'5.0.0');
+2024-04-08 09:17:00.201 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:17:06.449 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:17:06.824 +05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:17:06.857 +05:00 [INF] Executed DbCommand (19ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:17:06.861 +05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:17:06.862 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:17:06.883 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-08 09:17:06.909 +05:00 [INF] Applying migration '20240408041700_addСlients-AltImage'.
+2024-04-08 09:17:06.952 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Сlients] ADD [AltImage] nvarchar(max) NULL;
+2024-04-08 09:17:06.954 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240408041700_addСlients-AltImage', N'5.0.0');
+2024-04-08 09:17:18.358 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-08 09:17:18.787 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-08 09:17:18.787 +05:00 [INF] Hosting environment: Development
+2024-04-08 09:17:18.787 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-04-08 09:17:18.826 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-04-08 09:17:18.900 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:17:18.961 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-04-08 09:17:19.144 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 09:17:19.373 +05:00 [INF] Executed ViewResult - view Index executed in 234.5073ms.
+2024-04-08 09:17:19.377 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 413.9283ms
+2024-04-08 09:17:19.378 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:17:19.419 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 595.1602ms
+2024-04-08 09:17:21.485 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-04-08 09:17:21.494 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:17:21.502 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 09:17:22.184 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:17:22.908 +05:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Description], [r].[Floor], [r].[Name], [r].[PathImage], [r].[Price]
+FROM [Rooms] AS [r]
+2024-04-08 09:17:23.054 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [с].[Id], [с].[AltImage], [с].[ImagePath], [с].[ImagePathHover], [с].[Url]
+FROM [Сlients] AS [с]
+2024-04-08 09:17:23.095 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 09:17:25.313 +05:00 [INF] Executed ViewResult - view Index executed in 2218.0948ms.
+2024-04-08 09:17:25.313 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 3810.3642ms
+2024-04-08 09:17:25.313 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:17:25.319 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room - - - 200 - text/html;+charset=utf-8 3834.6390ms
+2024-04-08 09:19:54.181 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/2 - -
+2024-04-08 09:19:54.199 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.RoomDetails (CSE6581.Hotel.ATR)'
+2024-04-08 09:19:54.203 +05:00 [INF] Route matched with {action = "RoomDetails", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RoomDetails(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 09:19:54.222 +05:00 [INF] Executing ViewResult, running view RoomDetails.
+2024-04-08 09:19:54.261 +05:00 [INF] Executed ViewResult - view RoomDetails executed in 41.0795ms.
+2024-04-08 09:19:54.261 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.RoomDetails (CSE6581.Hotel.ATR) in 57.5378ms
+2024-04-08 09:19:54.261 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.RoomDetails (CSE6581.Hotel.ATR)'
+2024-04-08 09:19:54.269 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/2 - - - 200 - text/html;+charset=utf-8 87.4956ms
+2024-04-08 09:19:54.313 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-1.jpg - -
+2024-04-08 09:19:54.321 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-1.jpg - - - 404 - - 8.5600ms
+2024-04-08 09:19:54.356 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-3.jpg - -
+2024-04-08 09:19:54.356 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-2.jpg - -
+2024-04-08 09:19:54.358 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-3.jpg - - - 404 - - 1.6195ms
+2024-04-08 09:19:54.359 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-2.jpg - - - 404 - - 1.2341ms
+2024-04-08 09:19:54.399 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-4.jpg - -
+2024-04-08 09:19:54.402 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-4.jpg - - - 404 - - 3.7936ms
+2024-04-08 09:19:54.493 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-5.jpg - -
+2024-04-08 09:19:54.498 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - -
+2024-04-08 09:19:54.499 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-5.jpg - - - 404 - - 6.5609ms
+2024-04-08 09:19:54.507 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - - - 404 - - 9.7110ms
+2024-04-08 09:19:54.508 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - -
+2024-04-08 09:19:54.510 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - -
+2024-04-08 09:19:54.511 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - - - 404 - - 2.9278ms
+2024-04-08 09:19:54.511 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/1.jpg - -
+2024-04-08 09:19:54.514 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - - - 404 - - 3.9070ms
+2024-04-08 09:19:54.514 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/2.jpg - -
+2024-04-08 09:19:54.523 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/1.jpg - - - 404 - - 10.2165ms
+2024-04-08 09:19:54.525 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/2.jpg - - - 404 - - 9.4811ms
+2024-04-08 09:19:54.528 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/3.jpg - -
+2024-04-08 09:19:54.528 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/1.jpg - -
+2024-04-08 09:19:54.530 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - -
+2024-04-08 09:19:54.531 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - -
+2024-04-08 09:19:54.537 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/2.jpg - -
+2024-04-08 09:19:54.541 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - - - 404 - - 10.6798ms
+2024-04-08 09:19:54.542 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/3.jpg - -
+2024-04-08 09:19:54.542 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/1.jpg - - - 404 - - 11.2245ms
+2024-04-08 09:19:54.544 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - - - 404 - - 12.6338ms
+2024-04-08 09:19:54.545 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/2.jpg - - - 404 - - 8.1442ms
+2024-04-08 09:19:54.545 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/4.jpg - -
+2024-04-08 09:19:54.550 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/3.jpg - - - 404 - - 22.4250ms
+2024-04-08 09:19:54.550 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/3.jpg - - - 404 - - 8.1524ms
+2024-04-08 09:19:54.551 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/4.jpg - - - 404 - - 5.3590ms
+2024-04-08 09:19:54.558 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - -
+2024-04-08 09:19:54.559 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - - - 404 - - 1.7016ms
+2024-04-08 09:19:54.560 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - -
+2024-04-08 09:19:54.563 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - -
+2024-04-08 09:19:54.565 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - - - 404 - - 5.4200ms
+2024-04-08 09:19:54.566 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - - - 404 - - 3.4657ms
+2024-04-08 09:19:54.571 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - -
+2024-04-08 09:19:54.575 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - -
+2024-04-08 09:19:54.575 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - -
+2024-04-08 09:19:54.575 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - -
+2024-04-08 09:19:54.577 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - -
+2024-04-08 09:19:54.580 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - - - 404 - - 5.5693ms
+2024-04-08 09:19:54.583 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - - - 404 - - 8.1599ms
+2024-04-08 09:19:54.585 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - - - 404 - - 7.3414ms
+2024-04-08 09:19:54.588 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - - - 404 - - 16.5170ms
+2024-04-08 09:19:54.590 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - -
+2024-04-08 09:19:54.592 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - - - 404 - - 16.8154ms
+2024-04-08 09:19:54.597 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/logo/footer-logo.png - -
+2024-04-08 09:19:54.597 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - - - 404 - - 6.9615ms
+2024-04-08 09:19:54.601 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/2.jpg - -
+2024-04-08 09:19:54.605 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/logo/footer-logo.png - - - 404 - - 7.6667ms
+2024-04-08 09:19:54.605 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/2.jpg - - - 404 - - 3.3505ms
+2024-04-08 09:19:54.608 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - -
+2024-04-08 09:19:54.608 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/1.jpg - -
+2024-04-08 09:19:54.608 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/3.jpg - -
+2024-04-08 09:19:54.611 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/5.jpg - -
+2024-04-08 09:19:54.611 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/4.jpg - -
+2024-04-08 09:19:54.612 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/6.jpg - -
+2024-04-08 09:19:54.617 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/4.jpg - - - 404 - - 6.3205ms
+2024-04-08 09:19:54.618 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - - - 404 - - 10.2289ms
+2024-04-08 09:19:54.618 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/1.jpg - - - 404 - - 9.9906ms
+2024-04-08 09:19:54.618 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/6.jpg - - - 404 - - 5.9136ms
+2024-04-08 09:19:54.619 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/3.jpg - - - 404 - - 10.5041ms
+2024-04-08 09:19:54.624 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/5.jpg - - - 404 - - 12.7096ms
+2024-04-08 09:19:54.810 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - -
+2024-04-08 09:19:54.810 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - -
+2024-04-08 09:19:54.810 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - -
+2024-04-08 09:19:54.811 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - -
+2024-04-08 09:19:54.812 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - -
+2024-04-08 09:19:54.813 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - - - 404 - - 2.5169ms
+2024-04-08 09:19:54.813 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - - - 404 - - 2.9370ms
+2024-04-08 09:19:54.817 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - - - 404 - - 5.8957ms
+2024-04-08 09:19:54.818 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - - - 404 - - 7.4375ms
+2024-04-08 09:19:54.827 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - - - 404 - - 14.5497ms
+2024-04-08 09:19:54.828 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - -
+2024-04-08 09:19:54.828 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - -
+2024-04-08 09:19:54.831 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - - - 404 - - 3.0865ms
+2024-04-08 09:19:54.831 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - -
+2024-04-08 09:19:54.833 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - -
+2024-04-08 09:19:54.836 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - - - 404 - - 5.0466ms
+2024-04-08 09:19:54.838 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - - - 404 - - 3.8104ms
+2024-04-08 09:19:54.842 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - - - 404 - - 14.0777ms
+2024-04-08 09:19:54.846 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - -
+2024-04-08 09:19:54.849 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - -
+2024-04-08 09:19:54.849 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - -
+2024-04-08 09:19:54.850 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - -
+2024-04-08 09:19:54.850 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - -
+2024-04-08 09:19:54.851 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - - - 404 - - 2.3801ms
+2024-04-08 09:19:54.852 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - - - 404 - - 2.8334ms
+2024-04-08 09:19:54.852 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - -
+2024-04-08 09:19:54.853 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - - - 404 - - 2.0422ms
+2024-04-08 09:19:54.854 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - - - 404 - - 3.1410ms
+2024-04-08 09:19:54.854 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - - - 404 - - 2.1911ms
+2024-04-08 09:19:54.854 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - - - 404 - - 8.6530ms
+2024-04-08 09:23:03.171 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:23:09.978 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:23:10.328 +05:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:23:10.363 +05:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:23:10.366 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:23:10.367 +05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:23:10.385 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-08 09:23:10.404 +05:00 [INF] Applying migration '20240408042303_addRoom-PathLargeImage'.
+2024-04-08 09:23:10.445 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [Rooms] ADD [PathLargeImage] nvarchar(max) NULL;
+2024-04-08 09:23:10.446 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240408042303_addRoom-PathLargeImage', N'5.0.0');
+2024-04-08 09:23:53.543 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-08 09:23:53.741 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-08 09:23:53.741 +05:00 [INF] Hosting environment: Development
+2024-04-08 09:23:53.741 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-04-08 09:23:53.762 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-04-08 09:23:53.830 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:23:53.876 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-04-08 09:23:54.006 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 09:23:54.178 +05:00 [INF] Executed ViewResult - view Index executed in 176.2019ms.
+2024-04-08 09:23:54.180 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 302.9403ms
+2024-04-08 09:23:54.182 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:23:54.222 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 462.5302ms
+2024-04-08 09:23:56.511 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-04-08 09:23:56.516 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:23:56.520 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 09:23:57.053 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:23:57.603 +05:00 [INF] Executed DbCommand (31ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Description], [r].[Floor], [r].[Name], [r].[PathImage], [r].[PathLargeImage], [r].[Price]
+FROM [Rooms] AS [r]
+2024-04-08 09:23:57.723 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [с].[Id], [с].[AltImage], [с].[ImagePath], [с].[ImagePathHover], [с].[Url]
+FROM [Сlients] AS [с]
+2024-04-08 09:23:57.755 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 09:23:57.818 +05:00 [INF] Executed ViewResult - view Index executed in 63.6315ms.
+2024-04-08 09:23:57.818 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 1298.414ms
+2024-04-08 09:23:57.818 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:23:57.826 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room - - - 200 - text/html;+charset=utf-8 1314.7994ms
+2024-04-08 09:24:02.439 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/1 - -
+2024-04-08 09:24:02.443 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.RoomDetails (CSE6581.Hotel.ATR)'
+2024-04-08 09:24:02.463 +05:00 [INF] Route matched with {action = "RoomDetails", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RoomDetails(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 09:24:02.497 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:24:02.601 +05:00 [INF] Executed DbCommand (22ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [r].[Id], [r].[Description], [r].[Floor], [r].[Name], [r].[PathImage], [r].[PathLargeImage], [r].[Price]
+FROM [Rooms] AS [r]
+WHERE [r].[Id] = @__id_0
+2024-04-08 09:24:02.605 +05:00 [INF] Executing ViewResult, running view RoomDetails.
+2024-04-08 09:24:02.635 +05:00 [INF] Executed ViewResult - view RoomDetails executed in 30.7347ms.
+2024-04-08 09:24:02.635 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.RoomDetails (CSE6581.Hotel.ATR) in 171.2395ms
+2024-04-08 09:24:02.635 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.RoomDetails (CSE6581.Hotel.ATR)'
+2024-04-08 09:24:02.635 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/1 - - - 200 - text/html;+charset=utf-8 196.6270ms
+2024-04-08 09:24:02.687 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-5.jpg - -
+2024-04-08 09:24:02.688 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-2.jpg - -
+2024-04-08 09:24:02.695 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-5.jpg - - - 404 - - 8.2216ms
+2024-04-08 09:24:02.695 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-2.jpg - - - 404 - - 7.0770ms
+2024-04-08 09:24:02.717 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-3.jpg - -
+2024-04-08 09:24:02.717 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-4.jpg - -
+2024-04-08 09:24:02.718 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-4.jpg - - - 404 - - 1.1617ms
+2024-04-08 09:24:02.718 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-3.jpg - - - 404 - - 1.3771ms
+2024-04-08 09:24:02.765 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - -
+2024-04-08 09:24:02.765 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - -
+2024-04-08 09:24:02.765 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - -
+2024-04-08 09:24:02.766 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - -
+2024-04-08 09:24:02.766 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/1.jpg - -
+2024-04-08 09:24:02.766 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - - - 404 - - 0.9673ms
+2024-04-08 09:24:02.766 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - - - 404 - - 0.9594ms
+2024-04-08 09:24:02.766 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - - - 404 - - 0.7784ms
+2024-04-08 09:24:02.767 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/1.jpg - - - 404 - - 0.6560ms
+2024-04-08 09:24:02.767 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - - - 404 - - 1.6066ms
+2024-04-08 09:24:02.771 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - -
+2024-04-08 09:24:02.777 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - - - 404 - - 5.9466ms
+2024-04-08 09:24:02.780 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/1.jpg - -
+2024-04-08 09:24:02.780 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/2.jpg - -
+2024-04-08 09:24:02.781 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/2.jpg - -
+2024-04-08 09:24:02.781 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/3.jpg - -
+2024-04-08 09:24:02.781 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/3.jpg - -
+2024-04-08 09:24:02.782 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/2.jpg - - - 404 - - 1.3615ms
+2024-04-08 09:24:02.782 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/1.jpg - - - 404 - - 1.4455ms
+2024-04-08 09:24:02.782 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/3.jpg - - - 404 - - 0.9266ms
+2024-04-08 09:24:02.782 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/sidebar/2.jpg - - - 404 - - 1.3725ms
+2024-04-08 09:24:02.782 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/4.jpg - -
+2024-04-08 09:24:02.783 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/4.jpg - - - 404 - - 0.8746ms
+2024-04-08 09:24:02.785 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/3.jpg - - - 404 - - 3.5234ms
+2024-04-08 09:24:02.796 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - -
+2024-04-08 09:24:02.796 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - -
+2024-04-08 09:24:02.796 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - -
+2024-04-08 09:24:02.796 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - -
+2024-04-08 09:24:02.796 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - -
+2024-04-08 09:24:02.797 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - -
+2024-04-08 09:24:02.797 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - - - 404 - - 1.4527ms
+2024-04-08 09:24:02.797 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - - - 404 - - 0.6383ms
+2024-04-08 09:24:02.797 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - - - 404 - - 0.7321ms
+2024-04-08 09:24:02.797 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - - - 404 - - 1.4302ms
+2024-04-08 09:24:02.797 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - - - 404 - - 0.7288ms
+2024-04-08 09:24:02.798 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - - - 404 - - 1.4794ms
+2024-04-08 09:24:02.812 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - -
+2024-04-08 09:24:02.812 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - -
+2024-04-08 09:24:02.812 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - -
+2024-04-08 09:24:02.813 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - -
+2024-04-08 09:24:02.813 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/1.jpg - -
+2024-04-08 09:24:02.813 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/logo/footer-logo.png - -
+2024-04-08 09:24:02.813 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - - - 404 - - 1.5017ms
+2024-04-08 09:24:02.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - - - 404 - - 0.9731ms
+2024-04-08 09:24:02.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - - - 404 - - 1.8929ms
+2024-04-08 09:24:02.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - - - 404 - - 1.5064ms
+2024-04-08 09:24:02.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/1.jpg - - - 404 - - 0.9282ms
+2024-04-08 09:24:02.814 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/logo/footer-logo.png - - - 404 - - 0.7234ms
+2024-04-08 09:24:02.828 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/3.jpg - -
+2024-04-08 09:24:02.828 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/6.jpg - -
+2024-04-08 09:24:02.828 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/2.jpg - -
+2024-04-08 09:24:02.829 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-5.jpg - -
+2024-04-08 09:24:02.829 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/6.jpg - - - 404 - - 1.3344ms
+2024-04-08 09:24:02.829 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/5.jpg - -
+2024-04-08 09:24:02.829 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/2.jpg - - - 404 - - 1.3714ms
+2024-04-08 09:24:02.830 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/3.jpg - - - 404 - - 1.8543ms
+2024-04-08 09:24:02.830 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/l-5.jpg - - - 404 - - 0.7011ms
+2024-04-08 09:24:02.830 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/4.jpg - -
+2024-04-08 09:24:02.831 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/5.jpg - - - 404 - - 1.7722ms
+2024-04-08 09:24:02.833 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/footer/4.jpg - - - 404 - - 2.4951ms
+2024-04-08 09:24:02.971 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - -
+2024-04-08 09:24:02.972 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - -
+2024-04-08 09:24:02.972 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - -
+2024-04-08 09:24:02.973 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - -
+2024-04-08 09:24:02.973 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - -
+2024-04-08 09:24:02.973 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - -
+2024-04-08 09:24:02.974 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1.png - - - 404 - - 2.6500ms
+2024-04-08 09:24:02.974 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2.png - - - 404 - - 2.2344ms
+2024-04-08 09:24:02.974 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5-hover.png - - - 404 - - 1.8606ms
+2024-04-08 09:24:02.974 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/2-hover.png - - - 404 - - 1.6402ms
+2024-04-08 09:24:02.975 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/1-hover.png - - - 404 - - 1.1448ms
+2024-04-08 09:24:02.975 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/5.png - - - 404 - - 1.3917ms
+2024-04-08 09:24:02.988 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - -
+2024-04-08 09:24:02.988 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - -
+2024-04-08 09:24:02.989 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - -
+2024-04-08 09:24:02.989 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - -
+2024-04-08 09:24:02.990 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - -
+2024-04-08 09:24:02.990 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - -
+2024-04-08 09:24:02.990 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4.png - - - 404 - - 2.1361ms
+2024-04-08 09:24:02.990 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3.png - - - 404 - - 2.1018ms
+2024-04-08 09:24:02.990 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-4.jpg - - - 404 - - 1.3546ms
+2024-04-08 09:24:02.991 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/3-hover.png - - - 404 - - 1.3792ms
+2024-04-08 09:24:02.991 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/client/4-hover.png - - - 404 - - 0.7831ms
+2024-04-08 09:24:02.992 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-5.jpg - - - 404 - - 1.7240ms
+2024-04-08 09:24:03.005 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - -
+2024-04-08 09:24:03.006 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - -
+2024-04-08 09:24:03.007 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-3.jpg - - - 404 - - 2.0211ms
+2024-04-08 09:24:03.007 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - - - 404 - - 1.2226ms
+2024-04-08 09:24:03.009 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - -
+2024-04-08 09:24:03.010 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - - - 404 - - 1.6917ms

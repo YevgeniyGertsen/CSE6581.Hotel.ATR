@@ -24,6 +24,7 @@ namespace CSE6581.Hotel.ATR.Controllers
         public IActionResult Index(int page)
         {
             List<Room> listRooms = _db.Rooms.ToList();
+            ViewBag.Clients = _db.Сlients.ToList();
 
             return View(listRooms);
         }
@@ -35,7 +36,8 @@ namespace CSE6581.Hotel.ATR.Controllers
 
         public IActionResult RoomDetails(int id)
         {
-            return View();
+            var room = _db.Rooms.FirstOrDefault(f=>f.Id == id);
+            return View(room);
         }
 
 

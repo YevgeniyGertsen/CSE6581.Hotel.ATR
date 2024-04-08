@@ -4,14 +4,16 @@ using CSE6581.Hotel.ATR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CSE6581.Hotel.ATR.Migrations
 {
     [DbContext(typeof(HotelAtrContext))]
-    partial class HotelAtrContextModelSnapshot : ModelSnapshot
+    [Migration("20240408042303_addRoom-PathLargeImage")]
+    partial class addRoomPathLargeImage
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

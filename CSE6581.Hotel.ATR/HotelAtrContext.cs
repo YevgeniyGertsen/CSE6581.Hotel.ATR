@@ -16,5 +16,6 @@ namespace CSE6581.Hotel.ATR
 
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Event> Events { get; set; }
+        public DbSet<Сlient> Сlients { get; set; }
     }
 }

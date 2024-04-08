@@ -27,5 +27,6 @@ namespace CSE6581.Hotel.ATR.Models
 
         //img/room/5.jpg
         public string PathImage { get; set; }
+        public string PathLargeImage { get; set; }
     }
 }
