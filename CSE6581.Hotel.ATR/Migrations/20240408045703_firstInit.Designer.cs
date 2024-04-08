@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CSE6581.Hotel.ATR.Migrations
 {
     [DbContext(typeof(HotelAtrContext))]
-    [Migration("20240408041055_addСlients")]
-    partial class addСlients
+    [Migration("20240408045703_firstInit")]
+    partial class firstInit
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -71,6 +71,9 @@ namespace CSE6581.Hotel.ATR.Migrations
                     b.Property<string>("PathImage")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("PathLargeImage")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
@@ -85,6 +88,9 @@ namespace CSE6581.Hotel.ATR.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .UseIdentityColumn();
+
+                    b.Property<string>("AltImage")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");

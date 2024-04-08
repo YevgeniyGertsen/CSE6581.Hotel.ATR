@@ -959,3 +959,417 @@ WHERE [r].[Id] = @__id_0
 2024-04-08 09:24:03.007 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-2.jpg - - - 404 - - 1.2226ms
 2024-04-08 09:24:03.009 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - -
 2024-04-08 09:24:03.010 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room/RoomDetails/img/room/s-1.jpg - - - 404 - - 1.6917ms
+2024-04-08 09:56:11.623 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-08 09:56:12.054 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-08 09:56:12.054 +05:00 [INF] Hosting environment: Development
+2024-04-08 09:56:12.054 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-04-08 09:56:12.088 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-04-08 09:56:12.157 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:56:12.232 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-04-08 09:56:12.418 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 09:56:12.637 +05:00 [INF] Executed ViewResult - view Index executed in 220.8927ms.
+2024-04-08 09:56:12.642 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 408.9353ms
+2024-04-08 09:56:12.643 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:56:12.695 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 609.2811ms
+2024-04-08 09:56:14.461 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-04-08 09:56:14.467 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:56:14.471 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 09:56:15.174 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:56:16.278 +05:00 [ERR] Failed executing DbCommand (84ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Description], [r].[Floor], [r].[Name], [r].[PathImage], [r].[PathLargeImage], [r].[Price]
+FROM [Rooms] AS [r]
+2024-04-08 09:56:16.337 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CSE6581.Hotel.ATR.HotelAtrContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Rooms'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:b7984084-1d70-4d86-a53a-5d4f8aaa3691
+Error Number:208,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid object name 'Rooms'.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+ClientConnectionId:b7984084-1d70-4d86-a53a-5d4f8aaa3691
+Error Number:208,State:1,Class:16
+2024-04-08 09:57:03.329 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:57:12.033 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:57:12.794 +05:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:57:12.902 +05:00 [INF] Executed DbCommand (88ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:57:12.949 +05:00 [INF] Executed DbCommand (46ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:57:13.277 +05:00 [INF] Executed DbCommand (154ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2024-04-08 09:57:13.330 +05:00 [INF] Executed DbCommand (50ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2024-04-08 09:57:13.424 +05:00 [INF] Executed DbCommand (94ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2024-04-08 09:57:13.531 +05:00 [INF] Executed DbCommand (104ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2024-04-08 09:57:13.551 +05:00 [INF] Applying migration '20240408045703_firstInit'.
+2024-04-08 09:57:13.687 +05:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Сlients] (
+    [Id] int NOT NULL IDENTITY,
+    [Url] nvarchar(max) NULL,
+    [ImagePath] nvarchar(max) NULL,
+    [AltImage] nvarchar(max) NULL,
+    [ImagePathHover] nvarchar(max) NULL,
+    CONSTRAINT [PK_Сlients] PRIMARY KEY ([Id])
+);
+2024-04-08 09:57:13.738 +05:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Events] (
+    [Id] int NOT NULL IDENTITY,
+    [CreateDate] datetime2 NOT NULL,
+    [StartDate] datetime2 NOT NULL,
+    [EndDate] datetime2 NOT NULL,
+    [Name] nvarchar(max) NULL,
+    [Description] nvarchar(max) NULL,
+    [Location] nvarchar(max) NULL,
+    CONSTRAINT [PK_Events] PRIMARY KEY ([Id])
+);
+2024-04-08 09:57:13.795 +05:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Rooms] (
+    [Id] int NOT NULL IDENTITY,
+    [Name] nvarchar(max) NOT NULL,
+    [Description] nvarchar(max) NULL,
+    [Price] decimal(18,2) NOT NULL,
+    [Floor] int NOT NULL,
+    [PathImage] nvarchar(max) NULL,
+    [PathLargeImage] nvarchar(max) NULL,
+    CONSTRAINT [PK_Rooms] PRIMARY KEY ([Id])
+);
+2024-04-08 09:57:13.860 +05:00 [INF] Executed DbCommand (64ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20240408045703_firstInit', N'5.0.0');
+2024-04-08 09:58:32.647 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-08 09:58:33.027 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-08 09:58:33.027 +05:00 [INF] Hosting environment: Development
+2024-04-08 09:58:33.027 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-04-08 09:58:33.060 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-04-08 09:58:33.135 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:58:33.207 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-04-08 09:58:33.419 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 09:58:33.626 +05:00 [INF] Executed ViewResult - view Index executed in 212.5243ms.
+2024-04-08 09:58:33.630 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 421.5395ms
+2024-04-08 09:58:33.631 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:58:33.674 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 615.3388ms
+2024-04-08 09:58:36.342 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-04-08 09:58:36.354 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:58:36.357 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 09:58:37.079 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 09:58:38.273 +05:00 [INF] Executed DbCommand (111ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Description], [r].[Floor], [r].[Name], [r].[PathImage], [r].[PathLargeImage], [r].[Price]
+FROM [Rooms] AS [r]
+2024-04-08 09:58:38.468 +05:00 [INF] Executed DbCommand (135ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [с].[Id], [с].[AltImage], [с].[ImagePath], [с].[ImagePathHover], [с].[Url]
+FROM [Сlients] AS [с]
+2024-04-08 09:58:38.498 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 09:58:42.010 +05:00 [INF] Executed ViewResult - view Index executed in 3513.4737ms.
+2024-04-08 09:58:42.010 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 5653.3421ms
+2024-04-08 09:58:42.011 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 09:58:42.017 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room - - - 200 - text/html;+charset=utf-8 5675.2679ms
+2024-04-08 10:03:16.404 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-08 10:03:16.659 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-08 10:03:16.659 +05:00 [INF] Hosting environment: Development
+2024-04-08 10:03:16.660 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-04-08 10:03:16.688 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-04-08 10:03:16.767 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:03:16.834 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-04-08 10:03:16.998 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 10:03:17.176 +05:00 [INF] Executed ViewResult - view Index executed in 181.3891ms.
+2024-04-08 10:03:17.178 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 343.1829ms
+2024-04-08 10:03:17.180 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:03:17.216 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 527.8480ms
+2024-04-08 10:03:19.530 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-04-08 10:03:19.536 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:03:19.543 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 10:03:20.091 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 10:03:21.285 +05:00 [INF] Executed DbCommand (110ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = Int32), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Precision = 18) (Scale = 2) (DbType = Decimal)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Rooms] ([Description], [Floor], [Name], [PathImage], [PathLargeImage], [Price])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5);
+SELECT [Id]
+FROM [Rooms]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2024-04-08 10:03:21.700 +05:00 [INF] Executed DbCommand (73ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Description], [r].[Floor], [r].[Name], [r].[PathImage], [r].[PathLargeImage], [r].[Price]
+FROM [Rooms] AS [r]
+2024-04-08 10:03:21.778 +05:00 [INF] Executed DbCommand (48ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [с].[Id], [с].[AltImage], [с].[ImagePath], [с].[ImagePathHover], [с].[Url]
+FROM [Сlients] AS [с]
+2024-04-08 10:03:21.799 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 10:03:21.858 +05:00 [INF] Executed ViewResult - view Index executed in 59.2858ms.
+2024-04-08 10:03:21.858 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 2315.2953ms
+2024-04-08 10:03:21.858 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:03:21.866 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room - - - 200 - text/html;+charset=utf-8 2336.0428ms
+2024-04-08 10:11:48.241 +05:00 [INF] User profile is available. Using 'C:\Users\ayako\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2024-04-08 10:11:48.818 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-04-08 10:11:48.818 +05:00 [INF] Hosting environment: Development
+2024-04-08 10:11:48.819 +05:00 [INF] Content root path: C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR
+2024-04-08 10:11:48.880 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/ - -
+2024-04-08 10:11:48.950 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:11:49.017 +05:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(System.String) on controller CSE6581.Hotel.ATR.Controllers.HomeController (CSE6581.Hotel.ATR).
+2024-04-08 10:11:49.216 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 10:11:49.444 +05:00 [INF] Executed ViewResult - view Index executed in 232.8685ms.
+2024-04-08 10:11:49.446 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR) in 428.1084ms
+2024-04-08 10:11:49.447 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.HomeController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:11:49.485 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/ - - - 200 - text/html;+charset=utf-8 608.3951ms
+2024-04-08 10:11:49.489 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/font-awesome.min.css - -
+2024-04-08 10:11:49.490 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - -
+2024-04-08 10:11:49.490 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/responsive.css - -
+2024-04-08 10:11:49.491 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css - -
+2024-04-08 10:11:49.575 +05:00 [INF] Sending file. Request path: '/css/responsive.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\responsive.css'
+2024-04-08 10:11:49.576 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/shortcodes.css - -
+2024-04-08 10:11:49.577 +05:00 [INF] Sending file. Request path: '/js/vendor/modernizr-2.8.3.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\vendor\modernizr-2.8.3.min.js'
+2024-04-08 10:11:49.580 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/style.css - -
+2024-04-08 10:11:49.590 +05:00 [INF] Sending file. Request path: '/css/font-awesome.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\font-awesome.min.css'
+2024-04-08 10:11:49.592 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/font-awesome.min.css - - - 200 31024 text/css 103.0223ms
+2024-04-08 10:11:49.593 +05:00 [INF] Sending file. Request path: '/css/bootstrap.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\bootstrap.min.css'
+2024-04-08 10:11:49.593 +05:00 [INF] Sending file. Request path: '/css/shortcode/shortcodes.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\shortcodes.css'
+2024-04-08 10:11:49.608 +05:00 [INF] Sending file. Request path: '/style.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\style.css'
+2024-04-08 10:11:49.608 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/shortcodes.css - - - 200 667 text/css 30.2349ms
+2024-04-08 10:11:49.619 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/modernizr-2.8.3.min.js - - - 200 15514 application/javascript 128.9781ms
+2024-04-08 10:11:49.620 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/logo/footer-logo.png - -
+2024-04-08 10:11:49.620 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/responsive.css - - - 200 11221 text/css 129.4931ms
+2024-04-08 10:11:49.620 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/bootstrap.min.css - - - 200 121204 text/css 131.0593ms
+2024-04-08 10:11:49.623 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/default.css - -
+2024-04-08 10:11:49.624 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/style.css - - - 200 30445 text/css 43.6885ms
+2024-04-08 10:11:49.624 +05:00 [INF] Sending file. Request path: '/img/logo/footer-logo.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\logo\footer-logo.png'
+2024-04-08 10:11:49.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/header.css - -
+2024-04-08 10:11:49.625 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/slider.css - -
+2024-04-08 10:11:49.626 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/shortcode/footer.css - -
+2024-04-08 10:11:49.638 +05:00 [INF] Sending file. Request path: '/css/shortcode/slider.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\slider.css'
+2024-04-08 10:11:49.639 +05:00 [INF] Sending file. Request path: '/css/shortcode/header.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\header.css'
+2024-04-08 10:11:49.639 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/logo/logo.png - -
+2024-04-08 10:11:49.639 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/logo/footer-logo.png - - - 200 2343 image/png 19.0212ms
+2024-04-08 10:11:49.639 +05:00 [INF] Sending file. Request path: '/css/shortcode/default.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\default.css'
+2024-04-08 10:11:49.640 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/slider.css - - - 200 3701 text/css 14.7929ms
+2024-04-08 10:11:49.640 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/header.css - - - 200 5127 text/css 14.8274ms
+2024-04-08 10:11:49.646 +05:00 [INF] Sending file. Request path: '/img/logo/logo.png'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\logo\logo.png'
+2024-04-08 10:11:49.652 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/logo/logo.png - - - 200 2876 image/png 11.0961ms
+2024-04-08 10:11:49.653 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/default.css - - - 200 17489 text/css 29.2174ms
+2024-04-08 10:11:49.657 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/animate.css - -
+2024-04-08 10:11:49.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/owl.carousel.css - -
+2024-04-08 10:11:49.658 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/magnific-popup.css - -
+2024-04-08 10:11:49.658 +05:00 [INF] Sending file. Request path: '/css/shortcode/footer.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\shortcode\footer.css'
+2024-04-08 10:11:49.659 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.css - -
+2024-04-08 10:11:49.684 +05:00 [INF] Sending file. Request path: '/css/owl.carousel.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\owl.carousel.css'
+2024-04-08 10:11:49.684 +05:00 [INF] Sending file. Request path: '/css/magnific-popup.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\magnific-popup.css'
+2024-04-08 10:11:49.685 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.min.css - -
+2024-04-08 10:11:49.686 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/shortcode/footer.css - - - 200 4238 text/css 59.7792ms
+2024-04-08 10:11:49.686 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/magnific-popup.css - - - 200 5204 text/css 27.9616ms
+2024-04-08 10:11:49.686 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/owl.carousel.css - - - 200 4614 text/css 28.7923ms
+2024-04-08 10:11:49.698 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/slick.css - -
+2024-04-08 10:11:49.698 +05:00 [INF] Sending file. Request path: '/css/material-design-iconic-font.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\material-design-iconic-font.css'
+2024-04-08 10:11:49.699 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/css/meanmenu.min.css - -
+2024-04-08 10:11:49.700 +05:00 [INF] Sending file. Request path: '/css/animate.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\animate.css'
+2024-04-08 10:11:49.701 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/1.jpg - -
+2024-04-08 10:11:49.706 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/animate.css - - - 200 70824 text/css 51.8906ms
+2024-04-08 10:11:49.707 +05:00 [INF] Sending file. Request path: '/css/material-design-iconic-font.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\material-design-iconic-font.min.css'
+2024-04-08 10:11:49.708 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.css - - - 200 85316 text/css 49.0306ms
+2024-04-08 10:11:49.715 +05:00 [INF] Sending file. Request path: '/css/meanmenu.min.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\meanmenu.min.css'
+2024-04-08 10:11:49.715 +05:00 [INF] Sending file. Request path: '/css/slick.css'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\css\slick.css'
+2024-04-08 10:11:49.716 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/meanmenu.min.css - - - 200 2968 text/css 17.5828ms
+2024-04-08 10:11:49.716 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/slick.css - - - 200 1307 text/css 18.1388ms
+2024-04-08 10:11:49.716 +05:00 [INF] Sending file. Request path: '/img/footer/1.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\1.jpg'
+2024-04-08 10:11:49.717 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/1.jpg - - - 200 7131 image/jpeg 15.7209ms
+2024-04-08 10:11:49.722 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/css/material-design-iconic-font.min.css - - - 200 70827 text/css 36.4155ms
+2024-04-08 10:11:49.723 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/2.jpg - -
+2024-04-08 10:11:49.728 +05:00 [INF] Sending file. Request path: '/img/footer/2.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\2.jpg'
+2024-04-08 10:11:49.728 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - -
+2024-04-08 10:11:49.729 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/2.jpg - - - 200 9331 image/jpeg 5.6711ms
+2024-04-08 10:11:49.734 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - -
+2024-04-08 10:11:49.785 +05:00 [INF] Sending file. Request path: '/js/bootstrap.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\bootstrap.min.js'
+2024-04-08 10:11:49.787 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/bootstrap.min.js - - - 200 37045 application/javascript 51.8678ms
+2024-04-08 10:11:49.793 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - -
+2024-04-08 10:11:49.816 +05:00 [INF] Sending file. Request path: '/js/vendor/jquery-1.12.4.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\vendor\jquery-1.12.4.min.js'
+2024-04-08 10:11:49.819 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/vendor/jquery-1.12.4.min.js - - - 200 97163 application/javascript 90.5795ms
+2024-04-08 10:11:49.833 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - -
+2024-04-08 10:11:49.836 +05:00 [INF] Sending file. Request path: '/js/owl.carousel.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\owl.carousel.min.js'
+2024-04-08 10:11:49.839 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/owl.carousel.min.js - - - 200 77685 application/javascript 44.0409ms
+2024-04-08 10:11:49.843 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.ajaxchimp.min.js - -
+2024-04-08 10:11:49.859 +05:00 [INF] Sending file. Request path: '/js/ajax-mail.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\ajax-mail.js'
+2024-04-08 10:11:49.860 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/ajax-mail.js - - - 200 1279 application/javascript 28.2598ms
+2024-04-08 10:11:49.866 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.meanmenu.js - -
+2024-04-08 10:11:49.871 +05:00 [INF] Sending file. Request path: '/js/jquery.ajaxchimp.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.ajaxchimp.min.js'
+2024-04-08 10:11:49.871 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.ajaxchimp.min.js - - - 200 2449 application/javascript 28.1381ms
+2024-04-08 10:11:49.878 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.counterup.min.js - -
+2024-04-08 10:11:49.899 +05:00 [INF] Sending file. Request path: '/js/jquery.counterup.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.counterup.min.js'
+2024-04-08 10:11:49.900 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.counterup.min.js - - - 200 1067 application/javascript 22.0358ms
+2024-04-08 10:11:49.905 +05:00 [INF] Sending file. Request path: '/js/jquery.meanmenu.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.meanmenu.js'
+2024-04-08 10:11:49.906 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.meanmenu.js - - - 200 11467 application/javascript 40.4209ms
+2024-04-08 10:11:49.906 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/waypoints.min.js - -
+2024-04-08 10:11:49.912 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/isotope.pkgd.min.js - -
+2024-04-08 10:11:49.950 +05:00 [INF] Sending file. Request path: '/js/waypoints.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\waypoints.min.js'
+2024-04-08 10:11:49.959 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/waypoints.min.js - - - 200 8044 application/javascript 52.6352ms
+2024-04-08 10:11:49.977 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/imagesloaded.pkgd.min.js - -
+2024-04-08 10:11:49.989 +05:00 [INF] Sending file. Request path: '/js/isotope.pkgd.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\isotope.pkgd.min.js'
+2024-04-08 10:11:50.006 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/isotope.pkgd.min.js - - - 200 34695 application/javascript 94.1842ms
+2024-04-08 10:11:50.023 +05:00 [INF] Sending file. Request path: '/js/imagesloaded.pkgd.min.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\imagesloaded.pkgd.min.js'
+2024-04-08 10:11:50.028 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/imagesloaded.pkgd.min.js - - - 200 5441 application/javascript 51.0538ms
+2024-04-08 10:11:50.056 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/plugins.js - -
+2024-04-08 10:11:50.056 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/main.js - -
+2024-04-08 10:11:50.057 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/3.jpg - -
+2024-04-08 10:11:50.058 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/4.jpg - -
+2024-04-08 10:11:50.061 +05:00 [INF] Sending file. Request path: '/img/footer/3.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\3.jpg'
+2024-04-08 10:11:50.068 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/5.jpg - -
+2024-04-08 10:11:50.078 +05:00 [INF] Sending file. Request path: '/img/footer/4.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\4.jpg'
+2024-04-08 10:11:50.078 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/js/jquery.magnific-popup.js - -
+2024-04-08 10:11:50.079 +05:00 [INF] Sending file. Request path: '/img/footer/5.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\5.jpg'
+2024-04-08 10:11:50.094 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/3.jpg - - - 200 10820 image/jpeg 37.2272ms
+2024-04-08 10:11:50.094 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/5.jpg - - - 200 8597 image/jpeg 26.3638ms
+2024-04-08 10:11:50.102 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/4.jpg - - - 200 9987 image/jpeg 44.6753ms
+2024-04-08 10:11:50.102 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/footer/6.jpg - -
+2024-04-08 10:11:50.104 +05:00 [INF] Sending file. Request path: '/js/main.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\main.js'
+2024-04-08 10:11:50.105 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/slider/1.jpg - -
+2024-04-08 10:11:50.107 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/slider/2.jpg - -
+2024-04-08 10:11:50.113 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/main.js - - - 200 6880 application/javascript 56.3407ms
+2024-04-08 10:11:50.113 +05:00 [INF] Sending file. Request path: '/img/footer/6.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\footer\6.jpg'
+2024-04-08 10:11:50.114 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/footer/6.jpg - - - 200 9719 image/jpeg 11.5739ms
+2024-04-08 10:11:50.130 +05:00 [INF] Sending file. Request path: '/js/plugins.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\plugins.js'
+2024-04-08 10:11:50.133 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/plugins.js - - - 200 54000 application/javascript 76.9264ms
+2024-04-08 10:11:50.137 +05:00 [INF] Sending file. Request path: '/js/jquery.magnific-popup.js'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\js\jquery.magnific-popup.js'
+2024-04-08 10:11:50.138 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/js/jquery.magnific-popup.js - - - 200 41742 application/javascript 59.4720ms
+2024-04-08 10:11:50.220 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/fonts/Material-Design-Iconic-Fontd1f1.woff2?v=2.2.0 - -
+2024-04-08 10:11:50.239 +05:00 [INF] Sending file. Request path: '/fonts/Material-Design-Iconic-Fontd1f1.woff2'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\fonts\Material-Design-Iconic-Fontd1f1.woff2'
+2024-04-08 10:11:50.240 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/fonts/Material-Design-Iconic-Fontd1f1.woff2?v=2.2.0 - - - 200 38384 font/woff2 20.4825ms
+2024-04-08 10:11:50.258 +05:00 [INF] Sending file. Request path: '/img/slider/2.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\slider\2.jpg'
+2024-04-08 10:11:50.293 +05:00 [INF] Sending file. Request path: '/img/slider/1.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\slider\1.jpg'
+2024-04-08 10:11:50.309 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/slider/2.jpg - - - 200 1336260 image/jpeg 201.8352ms
+2024-04-08 10:11:50.322 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/slider/1.jpg - - - 200 1720959 image/jpeg 216.7697ms
+2024-04-08 10:11:51.497 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-04-08 10:11:51.501 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:11:51.506 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 10:11:52.246 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 10:12:11.203 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0 - -
+2024-04-08 10:12:11.223 +05:00 [INF] Sending file. Request path: '/fonts/fontawesome-webfont3e6e.woff2'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\fonts\fontawesome-webfont3e6e.woff2'
+2024-04-08 10:12:11.224 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/fonts/fontawesome-webfont3e6e.woff2?v=4.7.0 - - - 200 77160 font/woff2 20.7422ms
+2024-04-08 10:12:13.921 +05:00 [ERR] An error occurred using the connection to database 'TestAppDb' on server '178.89.186.221, 1434'.
+2024-04-08 10:12:13.940 +05:00 [ERR] An exception occurred while iterating over the results of a query for context type 'CSE6581.Hotel.ATR.HotelAtrContext'.
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.)
+ ---> System.ComponentModel.Win32Exception (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.InvalidOperationException: An exception has been raised that is likely due to a transient failure. Consider enabling transient error resiliency by adding 'EnableRetryOnFailure()' to the 'UseSqlServer' call.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: TCP Provider, error: 0 - Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.)
+ ---> System.ComponentModel.Win32Exception (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity, Boolean withFailover, SqlAuthenticationMethod authType)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, DbConnectionPool pool)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open(SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.Open()
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerConnection.OpenDbConnection(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.OpenInternal(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Open(Boolean errorsExpected)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(DbContext _, Boolean result)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Error Number:10060,State:0,Class:20
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2024-04-08 10:12:47.009 +05:00 [INF] Executing ViewResult, running view Error.
+2024-04-08 10:12:47.060 +05:00 [INF] Executed ViewResult - view Error executed in 54.09ms.
+2024-04-08 10:12:47.061 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 55555.0272ms
+2024-04-08 10:12:47.061 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:12:47.091 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room - - - 200 - text/html;+charset=utf-8 55593.9184ms
+2024-04-08 10:12:51.121 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/Room - -
+2024-04-08 10:12:51.125 +05:00 [INF] Executing endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:12:51.125 +05:00 [INF] Route matched with {action = "Index", controller = "Room"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index(Int32) on controller CSE6581.Hotel.ATR.Controllers.RoomController (CSE6581.Hotel.ATR).
+2024-04-08 10:12:51.178 +05:00 [INF] Entity Framework Core 5.0.0 initialized 'HotelAtrContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+2024-04-08 10:12:51.765 +05:00 [INF] Executed DbCommand (136ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [r].[Id], [r].[Description], [r].[Floor], [r].[Name], [r].[PathImage], [r].[PathLargeImage], [r].[Price]
+FROM [Rooms] AS [r]
+2024-04-08 10:12:54.996 +05:00 [INF] Executed DbCommand (92ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [с].[Id], [с].[AltImage], [с].[ImagePath], [с].[ImagePathHover], [с].[Url]
+FROM [Сlients] AS [с]
+2024-04-08 10:12:55.897 +05:00 [INF] Executing ViewResult, running view Index.
+2024-04-08 10:12:57.997 +05:00 [INF] Executed ViewResult - view Index executed in 2102.2077ms.
+2024-04-08 10:12:57.997 +05:00 [INF] Executed action CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR) in 6872.2892ms
+2024-04-08 10:12:57.997 +05:00 [INF] Executed endpoint 'CSE6581.Hotel.ATR.Controllers.RoomController.Index (CSE6581.Hotel.ATR)'
+2024-04-08 10:12:57.999 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/Room - - - 200 - text/html;+charset=utf-8 6878.1735ms
+2024-04-08 10:12:58.072 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/room/5.jpg - -
+2024-04-08 10:12:58.077 +05:00 [INF] Sending file. Request path: '/img/room/5.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\room\5.jpg'
+2024-04-08 10:12:58.078 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/room/5.jpg - - - 200 135770 image/jpeg 6.2811ms
+2024-04-08 10:12:58.371 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost:52108/img/bg/3.jpg - -
+2024-04-08 10:12:58.415 +05:00 [INF] Sending file. Request path: '/img/bg/3.jpg'. Physical path: 'C:\Users\ayako\Source\Repos\CSE6581.Hotel.ATR\CSE6581.Hotel.ATR\wwwroot\img\bg\3.jpg'
+2024-04-08 10:12:58.418 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost:52108/img/bg/3.jpg - - - 200 666937 image/jpeg 47.0283ms

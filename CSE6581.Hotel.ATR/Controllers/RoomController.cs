@@ -23,6 +23,17 @@ namespace CSE6581.Hotel.ATR.Controllers
 
         public IActionResult Index(int page)
         {
+            //Room room = new Room();
+            //room.Price = 220;
+            //room.Name = "Single Room";
+            //room.Description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor";
+            //room.PathImage = "img/room/5.jpg";
+            //room.PathLargeImage = "img/room/l-5.jpg";
+
+            //_db.Rooms.Add(room);
+            //_db.SaveChanges();
+
+
             List<Room> listRooms = _db.Rooms.ToList();
             ViewBag.Clients = _db.Сlients.ToList();
 
