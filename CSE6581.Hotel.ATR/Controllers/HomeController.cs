@@ -4,12 +4,15 @@ using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using System.Runtime;
 using System.Security.Claims;
 using System.Threading.Tasks;
 
@@ -18,19 +21,39 @@ namespace CSE6581.Hotel.ATR.Controllers
     //[Authorize]
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-        private HotelAtrContext _db;
+        private readonly ILogger<HomeController> _logger;    
+        private IConfiguration _config;
+        private IOptions<ApiEndpoint> _settings;
 
-        public HomeController(ILogger<HomeController> logger, HotelAtrContext db)
+        public HomeController(ILogger<HomeController> logger,         
+             IConfiguration config,
+             IOptions<ApiEndpoint> settings)
         {
-            _logger = logger;
-            _db = db;
+            _logger = logger;          
+            _config = config;
+            _settings = settings;
         }
 
-        [TypeFilter(typeof(CustomExceptionFilter), Order =2)]
+        [TypeFilter(typeof(CustomExceptionFilter), Order = 2)]
         [TimeElapsed]
-        public IActionResult Index(string culture="")
+        public IActionResult Index(string culture = "")
         {
+            var data0 = _settings.Value.Url;
+            var data = 
+                _config.GetSection("Middleware")
+                .GetSection("EnableContentMiddleware")
+                .Value;
+
+            var data2 =
+            _config.GetSection("Middleware")
+            .GetValue<bool>("EnableContentMiddleware");
+
+
+            var data3 = _config
+                .GetSection("Middleware:EnableContentMiddleware")
+                .Value;
+
+
             return View();
         }
 

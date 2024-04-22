@@ -31,16 +31,11 @@ namespace CSE6581.Hotel.ATR
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.Configure<ApiEndpoint>(Configuration.GetSection("ApiEndpoint"));
+
             services.AddControllersWithViews();
 
-
-
-            var connectionString = Configuration.GetConnectionString("DefaultConnection");
-
-            services.AddDbContext<HotelAtrContext>(options =>
-            options.UseSqlServer(connectionString));
-
-
+          
 
 
             services.AddControllers(options =>

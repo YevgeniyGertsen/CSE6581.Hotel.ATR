@@ -2,10 +2,12 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace CSE6581.Hotel.ATR.Controllers
@@ -13,15 +15,13 @@ namespace CSE6581.Hotel.ATR.Controllers
     public class RoomController : Controller
     {
         private IWebHostEnvironment host;
-        private HotelAtrContext _db;
-
-        public RoomController(IWebHostEnvironment host, HotelAtrContext db)
+        
+        public RoomController(IWebHostEnvironment host)
         {
-            this.host = host;
-            _db = db;
+            this.host = host;           
         }
 
-        public IActionResult Index(int page)
+        public async Task<IActionResult> Index(int page)
         {
             //Room room = new Room();
             //room.Price = 220;
@@ -34,8 +34,22 @@ namespace CSE6581.Hotel.ATR.Controllers
             //_db.SaveChanges();
 
 
-            List<Room> listRooms = _db.Rooms.ToList();
-            ViewBag.Clients = _db.Сlients.ToList();
+            List<Room> listRooms = new List<Room>();
+            using (var httpClient = new HttpClient())
+            {
+                using (var responce = await httpClient
+                    .GetAsync("http://localhost:5161/api/Room"))
+                {
+                    var content = await responce
+                        .Content.ReadAsStringAsync();
+
+                    listRooms = JsonConvert
+                        .DeserializeObject<List<Room>>(content);
+                }
+            }
+
+
+           //ViewBag.Clients = _db.Сlients.ToList();
 
             return View(listRooms);
         }
@@ -47,8 +61,7 @@ namespace CSE6581.Hotel.ATR.Controllers
 
         public IActionResult RoomDetails(int id)
         {
-            var room = _db.Rooms.FirstOrDefault(f=>f.Id == id);
-            return View(room);
+            return View();
         }
 
 

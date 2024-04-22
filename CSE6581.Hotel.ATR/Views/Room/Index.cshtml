@@ -47,7 +47,7 @@
             {
                 <div class="col-md-4 col-sm-6 col-xs-12">
                     <div class="single-room">
-                        <img src="@room.PathImage" alt="">
+                        <img src="@room.PathToImage" alt="">
                         <div class="room-hover text-center">
                             <div class="hover-text">
                                 <h3><a href="room-details.html">@room.Name</a></h3>
@@ -55,7 +55,7 @@
                                     <span>$@room.Price</span>
                                     <span class="count">Per Night</span>
                                 </div>
-                                <p>@room.Description</p>
+                                <p>@room.Descriotion</p>
                                 <div class="room-btn">
                                     <a href="@Url.Action("RoomDetails", "Room", new {id=room.Id })" class="default-btn">DETAILS</a>
                                 </div>
@@ -83,7 +83,7 @@
     <div class="container">
         <div class="row">
             <div class="client-carousel">
-                @foreach (Сlient client in clients)
+                @* @foreach (Сlient client in clients)
                 {
                     <div class="single-client">
                         <div class="client-image">
@@ -93,7 +93,7 @@
                             </a>
                         </div>
                     </div>
-                }               
+                }     *@           
             </div>
         </div>
     </div>
